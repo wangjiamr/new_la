@@ -170,14 +170,12 @@ a.add:hover{text-decoration: underline;}
 .now_buy{width:140px;height:38px;background-position:0 -552px;}
 .now_buy:hover{background-position:0 -592px;}
 
-
-
 /*background-color and border-color*/
 .bg-347cdc,.MakeBtn,.pagenation a.current,.btn-make:hover,.Btn-normal:hover,.CheckWord li:hover,.CheckWord li.current{background-color:#347cdc;}
 .ListMain .ListTitle:hover{background-color: #f3f3f3;}
 .border-33619f{border-color:#33619f;}
 .search,.text{border-color:#aaa;}
-.ser_Results,.line,.btn-make:hover,.Title span.floatleft{border-color:#347cdc;}
+.ser_Results,.line,.btn-make:hover,.Title span.floatleft,.Btn-normal:hover{border-color:#347cdc;}
 .ListMain .ListTitle,.ListMain .ListTitle span{border-color:#ddd;}
 .border-c{border:1px solid #ccc;}
 .border-solid{border-style: solid!important;}
