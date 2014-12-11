@@ -118,13 +118,14 @@
 {
 	margin: 0 -3px 0 0;
 }
-.jspVerticalBar,.module_box .jspVerticalBar{width:3px;display: none;transition:0.4s;}
+.jspVerticalBar{width:4px;transition:0.4s;}
 .drag-box .jspVerticalBar{display:none!important;}
-.AppDetailIn .jspVerticalBar{width:8px;display: block;}
-.AppDetailIn .jspDrag{background:#999;border-radius:10px;}
-
-
-
+.jspVerticalBar{width:8px;display: block;}
+.jspDrag{background:#ccc;border-radius:10px;}
+.Annex_list .jspVerticalBar,.User_list .jspVerticalBar{width:3px;display: none;}
+.Annex_list:hover .jspVerticalBar,.User_list:hover .jspVerticalBar{display: block;}
+.Annex_list .jspDrag,.User_list .jspDrag{background:#000;}
+.Annex_list .jspTrack,.User_list .jspTrack{background:#11211f;}
 
 
 

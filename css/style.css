@@ -13,7 +13,7 @@
 .ico-bg,.ico-home2,.ico-search{width:22px;height:22px;background-position:-155px -428px;margin-left:20px;}
 .ico-home2{background-position:-177px -428px;}
 .ico-search{background-position:-199px -427px;}
-.r_btn{width:40px;position: absolute;top:10%;right:40px;z-index: 20;}
+.r_btn{width:40px;position: absolute;bottom:6px;right:40px;z-index: 20;}
 .ico-prev,.ico-next,.ico-re{width:40px;height:40px;background-position:-40px -650px;}
 .ico-re{background-position:0 -650px;margin-bottom:10px;margin-top:90px;}
 .ico-next{background-position:-80px -650px;margin-top:-2px;}
@@ -124,7 +124,6 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .AppDetailmain{margin:20px 30px 0 20px;}
 .AppMakeBtn{background:#3d3d42;border-left:1px solid #3d3d42;z-index:30;}
 .jscroll{padding-bottom:100px;}
-.jscroll:hover .jspVerticalBar{width:8px;}
 .jspDrag{background:#333;}
 .app_p{border-top:1px solid #ddd;height:29px;line-height:29px;padding:0 0 0 10px;}
 .app_p .Btn{height:29px;line-height:29px;border-radius:0;}
@@ -134,21 +133,31 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .ico-delete,.ico-turn{width:16px;height:16px;background-position: -177px -268px;vertical-align: middle;}/*垃圾箱*/
 .ico-turn{background-position:-177px -284px;}
 /*附件*/
-.Annex_list li{display:block;float:left;width:220px;height:50px;margin:20px 30px 0 10px;position: relative;overflow: hidden;}
-.an_logo{background:#f6f6f6;padding:9px;}
+.Annex_list li{display:block;width:100%;height:50px;position: relative;overflow: hidden;border-bottom: 1px solid #242427;}
+.an_logo{padding:9px;}
 .an_logo img{vertical-align: bottom;}
 .Annex_list li p{line-height:18px;}
-.Annex_list li p.txt_hidden{width:160px;}
-.Annex_list li .btn-make{width:100px;height:50px;position:absolute;top:-1px;background:#bbb9b9;right:-100px;transition:0.3s;}
+.Annex_list li p.txt_hidden{width:130px;color:#fff;}
+.Annex_list li .btn-make{width:100px;height:50px;position:absolute;top:0;background:#0b1718;right:-100px;transition:0.3s;}
 .Annex_list li .btn-make a{display:inline-block;height:50px;}
 .Annex_list li .btn-make a:hover{background:#347cdc;}
-.Annex_list li:hover{background:#f6f6f6;}
 .Annex_list li:hover .btn-make{right:-1px;transition:0.3s;}
 /*通讯录*/
-.User_list{width:199px;border-left:1px solid #242427;position: absolute;top:40px;right:0;bottom:0;background: url("../img/mask70.png") repeat;}
+.User_list,.Annex_list{width:199px;border-left:1px solid #242427;position: absolute;top:40px;right:0;bottom:0;background: url("../img/mask70.png") repeat;}
 .User_list .UserImg img,.User_list .UserImg{vertical-align:-5px;margin-right:10px;width:32px;height:32px;}
 .User_list li{padding:8px;}
 .User_title{background:#0f1d1e;border-bottom: 1px solid #0a1414;line-height:39px;color:#fff;}
+.User_list .TopBar .search{width:140px;height:30px;border:1px solid #1c1e20;border-radius:5px;}
+.User_list .TopBar .search input{height:30px;width:130px;}
+.Cur_Word{width:18px;height:18px;line-height:18px;text-align: center;color:#347cdc;border:1px solid #347cdc;border-radius:5px;}
+.CheckWord{width:202px;margin-right:-1px;}
+.CheckWord td{width:18px;height:19px;cursor: pointer;padding:0;text-align: center;border:1px solid #283b3b;}
+.CheckWord td:hover,.CheckWord td.current{background:#347cdc;color:#fff;}
+.User_list ul.User_ul li{border-bottom: 1px solid #162826;padding:15px 10px;}
+.User_list ul.User_ul li:hover{background:#112220;}
+.User_list ul.User_ul li p{color:#888;line-height:22px;}
+.User_list ul.User_ul li .UserName{color:#fff;}
+.User_list ul.User_ul li .UserImg,.User_list ul.User_ul li .UserImg img{width:36px;height:36px;}
 /*适配1024屏幕*/
 .mini .top_nav a{margin:0 2px;padding:0 5px;}
 .mini .ico-bg,.mini .ico-home2,.mini .ico-search{margin-left:10px;}

@@ -45,10 +45,10 @@
 .rightBar{width:819px;border-left:1px solid #aaa;position: relative;overflow: hidden;background-color: #fff;}
 .rightMove{margin-left: -190px;}
 .rightIn{padding:27px 0 0 39px;}
-.nav{border-bottom: 1px solid #ddd;width:500px;position: relative;}
-.nav a{display: inline-block;line-height:26px;height:26px;width:80px;text-align: center;float: left;}
+.nav{border-bottom: 1px solid #112726;position: relative;}
+.nav a{display: inline-block;line-height:26px;height:26px;width:49px;text-align: center;float: left;}
 .nav a.current{color:#59a7f9;}
-.nav .borderBt{width:80px;font-size:0;line-height:0;border-bottom:2px solid #59a7f9;position: absolute;bottom:-1px;left:0;}
+.nav .borderBt{width:49px;font-size:0;line-height:0;border-bottom:2px solid #59a7f9;position: absolute;bottom:-1px;left:0;}
 .search{width:200px;height:26px;border-width:1px;border-style:solid;border-radius:3px;position: relative;z-index: 20;text-align: left;background-color:#fff;}
 .search input,.search .Choosed{width:76%;height:26px;line-height:normal;border:0;border-radius:5px;padding-left:10px;background: none;color: #666;outline: none;}
 .search .Choosed{width:93%;line-height:26px;}
@@ -172,9 +172,7 @@
 .choosed{min-height:90px;}
 .choosedlist li{display: inline-block;height:18px;line-height: 18px;padding:0 5px 0 10px;border:1px solid #59a7f9;color: #666;margin:0 10px 5px 0;}
 .choosedlist li a i{margin-left:13px;position: relative;top:-1px;}
-.CheckWord{padding-bottom:6.5px;}
-.CheckWord li{float: left;cursor: pointer;margin-right:3px;padding:2px 6px;}
-.CheckWord li:hover,.CheckWord li.current{color: #fff;}
+
 .refresh,.CheckWord li.refresh:hover{border:1px solid #aaa;border-radius:3px;color: #888;background-color: #fff;}
 .contact .nodata{position: absolute;top:50%;left:50%;line-height: 20px;margin:-30px 0 0 -85px;padding-top: 0;color:#666;}
  .nodata a{color:#347cdc;padding:0 3px;}
@@ -266,7 +264,6 @@
 .cond span em{font-family: arial;}
 .process_choose{margin:0 auto;}
 .process_left{width:55%;padding-right:10px;border-right:1px solid #ddd;}
-.jscroll:hover .jspVerticalBar{width:3px;display:block;}
 .process_li{width:300px;}
 .process_li li{margin:5px 0 10px 10px}
 .process_li li a .Icon{position: relative;top:7px;margin-left:10px;}

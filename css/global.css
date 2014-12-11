@@ -344,7 +344,9 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .Iframe{width:99.5%;float:right;}
 .text{border-width:1px;border-style: solid;}
 .TurnTxt{width:96.5%;height:66px;padding:6px 10px;border-radius:4px;}
-.message{width:197px;height:53px;line-height:18px;padding:16px 20px 0 20px;background: url("../img/mesbg.png");position: fixed;bottom:0;right:0;word-break: break-all;word-wrap: break-word;z-index:300;}
+.message_box{width:236px;height:auto;position:fixed;top:50px;right:0;}
+.message{width:196px;height:44px;line-height:18px;padding:16px 20px 0 20px;margin:10px 0;background: url("../img/mesbg.png") no-repeat;word-break: break-all;word-wrap: break-word;}
+.message_error{background: url("../img/mesbg_error.png") no-repeat; }
 .off{position: absolute;top:9px;right:8px;font-weight: bold;font-size:26px;color:#aaa;cursor: pointer;}
 /*input*/
 .int{height:26px;line-height:normal;border:0;border-bottom:1px solid #ccc;border-radius:1px;text-indent:5px;color: #aaa;width: 100%;outline: 0;}
