@@ -32,7 +32,7 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
   url('TitilliumTitle01-Thin.ttf')  format('truetype'), /* Safari, Android, iOS */
   url('TitilliumTitle01-Thin.svg') format('svg'); /* Legacy iOS */
 }
-.Titillium{font-family: Titillium;}
+.Titillium{font-family: Titillium!important;font-weight:bold;}
 /*状态*/
 .s_over{color:#8fc31f;}
 .s_no{color:#e65c5c;}/*否决*/
