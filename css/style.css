@@ -96,7 +96,7 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .card_list li.current .card_in_main p *{font-size:14px;padding-top:7px;}
 .card_list li.current .card_in_main p.card_number{display: block;}
 .card_list li.current .card_in_main p em{display:inline-block;width:75px;text-align: right;}
-.process_bar{height:5px;position:relative;width:100%;background:#ccc;margin:2px 0;display: none;}
+.process_bar{height:5px;position:relative;width:100%;background:#ddd;margin:2px 0;display: none;}
 .process_bar span.process_bar_in{display:inline-block;position:absolute;left:0;top:0;height:5px;transition:0.4s;}
 .card_list li.current .process_bar{display: block;}
 
@@ -119,7 +119,6 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .card_theme6 .card_title{background:#ec6941;}
 .card_theme6 .card_in_main p i{color:#ec6941;}
 .card_theme6 span.process_bar_in{background:#ec6941;}
-
 
 .list_doing .r_btn{right:0;bottom:17px;}
 .list_doing .card_box{width:900px;margin-left:0;}
@@ -174,7 +173,15 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .ico-delete,.ico-turn{width:16px;height:16px;background-position: -177px -268px;vertical-align: middle;}/*垃圾箱*/
 .ico-turn{background-position:-177px -284px;}
 /*apply*/
-.form_list li{width: 140px;height:140px;float: left;text-align: center;}
+.form_box{position: relative;}
+.form_list li{width:140px;height:140px;float: left;text-align: center;margin:10px 0 0 10px;}
+.form_list li a{display: block;padding-top:33px;}
+.form_list li a img{margin-bottom:15px;transition: all .3s ease-in-out;}
+.form_list li:hover a img{transform: scale(1.1);}
+.list_doing .form_box .card_out{width:910px;background:#000;margin: 0 auto;padding-bottom:10px;}
+.list_doing .form_box .card_box_in{margin-left:-455px;}
+.list_doing .form_box .card_box{width:100%;}
+.form_box .r_btn{right:-5px;bottom: 0;}
 /*附件*/
 .Annex_list li{display:block;width:100%;height:50px;position: relative;overflow: hidden;border-bottom: 1px solid #242427;}
 .an_logo{padding:9px;}
@@ -186,7 +193,7 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .Annex_list li .btn-make a:hover{background:#347cdc;}
 .Annex_list li:hover .btn-make{right:-1px;transition:0.3s;}
 /*通讯录*/
-.User_list,.Annex_list{width:199px;border-left:1px solid #242427;position: absolute;top:40px;right:0;bottom:0;background: url("../img/mask70.png") repeat;}
+.User_list,.Annex_list{width:199px;border-left:1px solid #242427;position: absolute;top:0;right:0;bottom:0;background: url("../img/mask70.png") repeat;z-index:300;}
 .User_list .UserImg img,.User_list .UserImg{vertical-align:-5px;margin-right:10px;width:32px;height:32px;}
 .User_list li{padding:8px;}
 .User_title{background:#0f1d1e;border-bottom: 1px solid #0a1414;line-height:39px;color:#fff;}
