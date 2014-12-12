@@ -241,19 +241,19 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .ico-all{width:21px;height:48px;background:#ccc;position: absolute;left:-21px;top:-1px;display:none;text-align: center;}
 .ico-all:hover{background:#888;}
 .ico-all em{display: inline-block;width:0;height:0;border-top:4px solid transparent;border-bottom:4px solid transparent;border-left:5px solid #fff;position: relative;top:19px;}
-.ico-Collect,.ico-Finance,.ico-Admin,.ico-material,.ico-Other,.ico-Stop{width: 35px;height:35px;}
+.ico-Collect,.ico-Finance,.ico-Admin,.ico-material,.ico-Other,.ico-Stop{width:17px;height:17px;vertical-align:-4px;margin-right:4px;}
 .ico-Collect{background-position:0 -198px;}/*常用表单*/
-.ico-Finance{background-position:0 -268px;}/*财务类*/
-.ico-Admin{background-position:-35px -233px;}/*行政类*/
-.ico-material{background-position:-35px -303px;}/*市场类*/
-.ico-Other{background-position:-70px -233px;}/*其他类*/
-.ico-Stop{background-position:-105px -233px;}/*停用的*/
-.current .ico-Collect{background-position:0 -233px;}/*常用表单*/
-.current .ico-Finance{background-position:0 -303px;}/*财务类*/
-.current .ico-Admin{background-position:-35px -268px;}/*行政类*/
-.current .ico-material{background-position:-70px -303px;}/*市场类*/
-.current .ico-Other{background-position:-70px -268px;}/*其他类*/
-.current .ico-Stop{background-position:-105px -268px;}/*停用的*/
+.ico-Finance{background-position:0 -215px;}/*财务类*/
+.ico-Admin{background-position:0 -232px;}/*行政类*/
+.ico-material{background-position:0 -249px;}/*市场类*/
+.ico-Other{background-position:0 -266px;}/*其他类*/
+.ico-Stop{background-position:0 -283px;}/*停用的*/
+.current .ico-Collect{background-position:-17px -198px;}/*常用表单*/
+.current .ico-Finance{background-position:-17px -215px;}/*财务类*/
+.current .ico-Admin{background-position:-17px -232px;}/*行政类*/
+.current .ico-material{background-position:-17px -249px;}/*市场类*/
+.current .ico-Other{background-position:-17px -266px;}/*其他类*/
+.current .ico-Stop{background-position:-17px -283px;}/*停用的*/
 .LeftNav .ico-arrow{width:10px;height:16px;position: absolute;background-position: -35px -160px;z-index: 20;right:-10px;}
 .ico-set{background-position: -94px -58px;}
 .ico-set:hover{background-position: -155px -30px;}
@@ -325,7 +325,7 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .Icon-add{display:block;width:90px;height:90px;position: absolute;left:50%;top:50%;margin:-45px 0 0 -45px;}
 .ico-add{width:60px;height:60px;background: url("../img/ico-plus.png");margin-bottom: 5px;}
 /*弹出*/
-.loading{position:fixed;width:160px;height:60px;top:50%;left:50%;margin:-30px 0 0 -80px;line-height: 60px;text-align:center;}
+.loading{position:absolute;width:50px;height:50px;top:50%;left:50%;margin:-25px 0 0 -25px;}
 .mask{width: 100%;height: 100%;position: fixed;top:0;left:0;z-index:100;}
 .contact .mask{width:60px;height:60px;line-height:60px;text-align: center;color: #fff;border-radius: 3px;position: absolute;font-size: 30px;top:50%;left:50%;margin:-30px 0 0 -30px;}
 .pop{position:absolute;border-radius:4px;z-index:120;left:50%;top:50%;width:700px;margin:-275px 0 0 -350px;background-color: #fff;border:1px solid #347cdc;}
