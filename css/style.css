@@ -117,6 +117,8 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .list_doing .card_list{width:1000px;}
 .list_doing .card_list li{margin:0 0 20px 15px;}
 .list_doing .card_list li .card_title{background:none!important;color:#333;border-bottom:1px solid #ccc;}
+.list_doing .card_list li .card_in_main p{font-size:14px;}
+.list_doing .card_list li .card_in_main p i{color:#e49436;}
 /*list*/
 .list_main{width:1000px;position: relative;}
 .list_table_box{position: relative;overflow: hidden;}
