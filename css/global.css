@@ -155,7 +155,7 @@ a.add:hover{text-decoration: underline;}
 /*.Btn:hover,.AppMakeBtn .Btn.current{background-color:#002059;border: 1px solid #2e5cac;height:29px;line-height: 29px;}*/
 .AppDetail_in .AppMakeBtn .Btn:hover,.AppDetail_in .AppMakeBtn .Btn.current,.Btn.current{background:#347cdc;color: #fff;}
 .AppDetail_in .AppMakeBtn .btn-acc{width:45px;margin-left:-1px;border-left:1px solid #2b2b2e;}
-.AppDetail_in .AppMakeBtn .btn-acc .Icon{left:0;top:8px;}
+.AppDetail_in .AppMakeBtn .btn-acc .Icon{left:0;top:12px;}
 .btn-quit,.btn-sure,.Btn-normal{color:#666;min-width:60px;border-left:1px solid #ccc;border-right:1px solid #ccc;text-align: center;}
 .btn-make:hover,.Btn-normal:hover{color:#fff;}
 .btn-sure{border:0;border-bottom-right-radius:2px;}
@@ -171,7 +171,7 @@ a.add:hover{text-decoration: underline;}
 .now_buy:hover{background-position:0 -592px;}
 
 /*background-color and border-color*/
-.bg-347cdc,.MakeBtn,.pagenation a.current,.btn-make:hover,.Btn-normal:hover,.CheckWord li:hover,.CheckWord li.current{background-color:#347cdc;}
+.bg-347cdc,.pagenation a.current,.btn-make:hover,.Btn-normal:hover,.CheckWord li:hover,.CheckWord li.current{background-color:#347cdc;}
 .ListMain .ListTitle:hover{background-color: #f3f3f3;}
 .border-33619f{border-color:#33619f;}
 .search,.text{border-color:#aaa;}
