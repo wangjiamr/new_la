@@ -2,7 +2,7 @@
 /* CSS Document */
 /*reset*/ 
 html{height:100%;}
-body{position:relative;background: #fff;color:#444;overflow:hidden;height:100%;min-width:1024px;}
+body{position:relative;background: #fff;color:#444;overflow:hidden;height:100%;}
 body, div, td,font,em{font-size:12px;line-height:1.2em;font-family:"Microsoft YaHei",Tahoma,Arial,"宋体","黑体";}
 body, div, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, legend, input, textarea, p, th, td, dl, dt, dd{margin: 0;padding: 0;}
 table{border-collapse:collapse;border-spacing:0;}
@@ -151,11 +151,11 @@ a.add:hover{text-decoration: underline;}
 .go_right:hover{background-position:-30px -80px;}
 /*按钮*/
 .Btn{display:inline-block;color:#fff;height:24px;line-height:24px;padding:0 15px;border-radius:2px;}
-.AppDetail .AppMakeBtn .Btn{border:0;border-right:1px solid #2b2b2e;width:90px;height:40px;line-height:40px;text-align: center;font-size:14px;padding:0;border-radius:0;}
+.AppDetail_in .AppMakeBtn .Btn{border:0;border-right:1px solid #2b2b2e;width:90px;height:40px;line-height:40px;text-align: center;font-size:14px;padding:0;border-radius:0;}
 /*.Btn:hover,.AppMakeBtn .Btn.current{background-color:#002059;border: 1px solid #2e5cac;height:29px;line-height: 29px;}*/
-.AppDetail .AppMakeBtn .Btn:hover,.AppDetail .AppMakeBtn .Btn.current,.Btn.current{background:#347cdc;color: #fff;}
-.AppDetail .AppMakeBtn .btn-acc{width:45px;margin-left:-1px;border-left:1px solid #2b2b2e;}
-.AppDetail .AppMakeBtn .btn-acc .Icon{left:0;}
+.AppDetail_in .AppMakeBtn .Btn:hover,.AppDetail_in .AppMakeBtn .Btn.current,.Btn.current{background:#347cdc;color: #fff;}
+.AppDetail_in .AppMakeBtn .btn-acc{width:45px;margin-left:-1px;border-left:1px solid #2b2b2e;}
+.AppDetail_in .AppMakeBtn .btn-acc .Icon{left:0;}
 .btn-quit,.btn-sure,.Btn-normal{color:#666;min-width:60px;border-left:1px solid #ccc;border-right:1px solid #ccc;text-align: center;}
 .btn-make:hover,.Btn-normal:hover{color:#fff;}
 .btn-sure{border:0;border-bottom-right-radius:2px;}
@@ -344,8 +344,8 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .Iframe{width:99.5%;float:right;}
 .text{border-width:1px;border-style: solid;}
 .TurnTxt{width:96.5%;height:66px;padding:6px 10px;border-radius:4px;}
-.message_box{width:236px;height:auto;position:fixed;top:50px;right:0;}
-.message{width:196px;height:44px;line-height:18px;padding:16px 20px 0 20px;margin:10px 0;background: url("../img/mesbg.png") no-repeat;word-break: break-all;word-wrap: break-word;}
+.message_box{width:236px;height:auto;position:fixed;top:50px;right:0;z-index:99;}
+.message{position:absolute;top:70px;width:196px;height:44px;line-height:18px;padding:16px 20px 0 20px;margin:10px 0;background: url("../img/mesbg.png") no-repeat;word-break: break-all;word-wrap: break-word;}
 .message_error{background: url("../img/mesbg_error.png") no-repeat; }
 .off{position: absolute;top:9px;right:8px;font-weight: bold;font-size:26px;color:#aaa;cursor: pointer;}
 /*input*/
