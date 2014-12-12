@@ -153,7 +153,7 @@ a.add:hover{text-decoration: underline;}
 .Btn{display:inline-block;color:#fff;height:24px;line-height:24px;padding:0 15px;border-radius:2px;}
 .AppDetail_in .AppMakeBtn .Btn{border:0;border-right:1px solid #2b2b2e;width:90px;height:40px;line-height:40px;text-align: center;font-size:14px;padding:0;border-radius:0;}
 /*.Btn:hover,.AppMakeBtn .Btn.current{background-color:#002059;border: 1px solid #2e5cac;height:29px;line-height: 29px;}*/
-.AppDetail_in .AppMakeBtn .Btn:hover,.AppDetail_in .AppMakeBtn .Btn.current,.Btn.current{background:#347cdc;color: #fff;}
+.AppDetail_in .AppMakeBtn .Btn:hover,.AppDetail_in .AppMakeBtn .Btn.current,.Btn.current,.form_bottom .Btn{background:#347cdc;color: #fff;}
 .AppDetail_in .AppMakeBtn .btn-acc{width:45px;margin-left:-1px;border-left:1px solid #2b2b2e;}
 .AppDetail_in .AppMakeBtn .btn-acc .Icon{left:0;top:12px;}
 .btn-quit,.btn-sure,.Btn-normal{color:#666;min-width:60px;border-left:1px solid #ccc;border-right:1px solid #ccc;text-align: center;}
