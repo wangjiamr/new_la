@@ -87,13 +87,15 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .card_list li .UserImg{margin-right:5px;}
 .card_title{height:22px;line-height:22px;padding:0 10px;color:#fff;font-size:12px;border-radius:5px 5px 0 0;transition:0.5s;margin:1px;}
 .card_list li.current .card_title,.card_list li.current .card_time{height:30px;line-height:30px;font-size:16px;transition:0.5s;}
-.card_list li.current .card_time{font-size:12px;min-height:30px;padding:4px 0;height:auto;line-height:24px;}
+.card_list li.current .card_time{font-size:12px;min-height:30px;padding:4px 0;height:auto;line-height:24px;border:0;}
 .card_list li.current .card_time p{padding-left:10px;}
 .card_list li .card_time p.txt_hidden{display: none;}
 .card_list li.current .card_time p.txt_hidden{display:block;width:305px;}
 .card_list li.current .card_time span{margin:0;transition:0.5s;}
 .card_list li.current .UserImg,.card_list li.current .UserImg img{width:70px;height:70px;}
-.card_list li.current .card_in_main p *{font-size:14px;padding-top:7px;}
+.card_list li.current .card_in_main{margin-top:25px;}
+.card_list li.current .card_in_main p *{font-size:14px;}
+.card_list li.current .card_in_main p{padding-top:4px;top:0;}
 .card_list li.current .card_in_main p.card_number{display: block;}
 .card_list li.current .card_in_main p em{display:inline-block;width:75px;text-align: right;}
 .process_bar{height:5px;position:relative;width:100%;background:#ddd;margin:2px 0;display: none;}
@@ -102,22 +104,22 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 
 
 .card_theme1 .card_title{background:#5bb259;}
-.card_theme1 .card_in_main p i{color:#5bb259;}
+.card_theme1 p i{color:#5bb259;}
 .card_theme1 span.process_bar_in{background:#5bb259;}
 .card_theme2 .card_title{background:#cc4e51;}
-.card_theme2 .card_in_main p i{color:#cc4e51;}
+.card_theme2 p i{color:#cc4e51;}
 .card_theme2 span.process_bar_in{background:#cc4e51;}
 .card_theme3 .card_title{background:#4e78b0;}
-.card_theme3 .card_in_main p i{color:#4e78b0;}
+.card_theme3 p i{color:#4e78b0;}
 .card_theme3 span.process_bar_in{background:#4e78b0;}
 .card_theme4 .card_title{background:#e49436;}
-.card_theme4 .card_in_main p i{color:#e49436;}
+.card_theme4 p i{color:#e49436;}
 .card_theme4 span.process_bar_in{background:#e49436;}
 .card_theme5 .card_title{background:#ae5fba;}
-.card_theme5 .card_in_main p i{color:#ae5fba;}
+.card_theme5 p i{color:#ae5fba;}
 .card_theme5 span.process_bar_in{background:#ae5fba;}
 .card_theme6 .card_title{background:#ec6941;}
-.card_theme6 .card_in_main p i{color:#ec6941;}
+.card_theme6 p i{color:#ec6941;}
 .card_theme6 span.process_bar_in{background:#ec6941;}
 
 .list_doing .r_btn{right:0;bottom:17px;}
@@ -129,6 +131,8 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .list_doing .card_list li .card_title{background:none!important;color:#333;border-bottom:1px solid #ccc;}
 .list_doing .card_list li .card_in_main p{font-size:14px;}
 .list_doing .card_list li .card_in_main p i{color:#e49436;}
+.list_doing .card_list li.current .card_in_main{margin-top:20px;}
+.list_doing .card_list li.current .card_in_main p{padding-top:4px;}
 /*list*/
 .list_main{width:1000px;position: relative;}
 .list_table_box{position: relative;overflow: hidden;}
@@ -137,6 +141,7 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .list_table thead th{color:#fff;height:30px;background:url("../img/mask40.png") repeat;text-indent:20px;}
 .list_table tbody td{border-bottom:1px solid #c7c7c7;background:#fff;color:#444;}
 .list_table tbody tr:last-child td{border-bottom:0;}
+.list_table tbody tr:hover td,.list_table tbody tr.current td{background:#f2f2f2;}
 .list_table tbody div.inner_td{height:40px;line-height:40px;padding-left:20px;position: relative;}
 .list_table tbody div.inner_td .UserImg,.Approval .UserImg{vertical-align:-10px;margin-right:5px;}
 .Approval .UserImg{background:url("../img/ico.png") -195px -60px;cursor: pointer;}
@@ -162,7 +167,7 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .AppDetail_in{width:100%;height:100%;position: relative;}
 .AppMakeBtn a{color:#fff;}
 .AppDetailmain{margin:20px 30px 0 20px;}
-.AppMakeBtn{background:#3d3d42;border-left:1px solid #3d3d42;z-index:30;}
+.AppMakeBtn{background:#242427;border-left:1px solid #3d3d42;z-index:30;}
 .jscroll{padding-bottom:100px;}
 .jspDrag{background:#333;}
 .app_p{border-top:1px solid #ddd;height:29px;line-height:29px;padding:0 0 0 10px;}
@@ -178,13 +183,15 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .form_list li a{display: block;padding-top:33px;color:#fff;}
 .form_list li a img{margin-bottom:15px;transition: all .3s ease-in-out;}
 .form_list li:hover a img{transform: scale(1.1);}
-.list_doing .form_box .card_out{width:910px;background:url("../img/mask70.png") repeat;margin: 0 auto;padding-bottom:10px;}
+.list_doing .form_box .card_out{width:910px;background:url("../img/mask40.png") repeat;margin: 0 auto;padding-bottom:10px;}
 .list_doing .form_box .card_box_in{margin-left:-455px;}
 .list_doing .form_box .card_box{width:100%;}
-.form_box .r_btn{right:-5px;bottom: 0;}
+.form_box .r_btn{right:-5px;bottom:0;}
+.form_list li:nth-child(2n){-webkit-animation: fadeInRight .5s .2s ease-in-out both;}
+.form_list li:nth-child(2n-1){-webkit-animation: fadeInLeft .5s .2s ease-in-out both;}
 /*附件*/
 .Annex_list li{display:block;width:100%;height:50px;position: relative;overflow: hidden;border-bottom: 1px solid #242427;}
-.an_logo{padding:9px;}
+.an_logo{padding:9px;width:32px;height:32px;background: url("../img/fu_file.gif") no-repeat center center;}
 .an_logo img{vertical-align: bottom;}
 .Annex_list li p{line-height:18px;}
 .Annex_list li p.txt_hidden{width:130px;color:#fff;}
@@ -196,12 +203,12 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .User_list,.Annex_list{width:199px;border-left:1px solid #242427;position: absolute;top:0;right:0;bottom:0;background: url("../img/mask70.png") repeat;z-index:300;}
 .User_list .UserImg img,.User_list .UserImg{vertical-align:-5px;margin-right:10px;width:32px;height:32px;}
 .User_list li{padding:8px;}
-.User_title{background:#0f1d1e;border-bottom: 1px solid #0a1414;line-height:39px;color:#fff;}
+.User_title{border-bottom: 1px solid #0a1414;line-height:39px;color:#fff;}
 .User_list .TopBar .search{width:140px;height:30px;border:1px solid #1c1e20;border-radius:5px;}
 .User_list .TopBar .search input{height:30px;width:130px;}
-.Cur_Word{width:18px;height:18px;line-height:18px;text-align: center;color:#347cdc;border:1px solid #347cdc;border-radius:5px;}
-.CheckWord{width:202px;margin-right:-1px;}
-.CheckWord td{width:18px;height:19px;cursor: pointer;padding:0;text-align: center;border:1px solid #283b3b;}
+.Cur_Word{width:18px;height:18px;line-height:18px;text-align: center;color:#347cdc;border:1px solid #347cdc;border-radius:5px;cursor: pointer;}
+.CheckWord{width:202px;margin-right:-1px;background:url("../img/mask10.png") repeat;display: block;}
+.CheckWord td{width:19px;height:19px;cursor: pointer;padding:0;text-align: center;border:1px solid #283b3b;color:#aaa;}
 .CheckWord td:hover,.CheckWord td.current{background:#347cdc;color:#fff;}
 .User_list ul.User_ul li{border-bottom: 1px solid #162826;padding:15px 10px;}
 .User_list ul.User_ul li:hover{background:#112220;}
