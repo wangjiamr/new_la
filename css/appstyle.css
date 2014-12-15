@@ -136,11 +136,11 @@
 .Approval table th{width:100px;padding-right:10px;text-align: right;}
 .Approval table th,.Approval table td{vertical-align: top;}
 .Approval_inner{width:650px;min-height:150px;border:1px solid #2b97df;border-radius:3px;}
-.Approval_inner textarea{width:100%;height:99px;display:block;border:0;border-bottom:1px solid #ddd;margin:0 auto;color:#888;}
+.Approval_inner textarea{width:98%;height:99px;padding:5px;display:block;border:0;border-bottom:1px solid #ddd;margin:0 auto;color:#888;}
 .Approval table td div.mart10 a i{vertical-align:-2px;}
-.acc_list li{float: left;width:50px;min-height:50px;border-radius:3px;margin:0 20px 0 0;background-color:#fff;position: relative;}
-.acc_list li div.block{width:50px;height:50px;overflow:hidden; text-align: center;border:1px solid #c3c3c3;position: relative;}
-.acc_list li div.block p{width:50px;height:50px;line-height:50px;}
+.acc_list li{float: left;width:120px;height:80px;margin:10px 20px 0 0;background-color:#fff;position: relative;overflow: hidden;background: url("../img/fu_img.gif") no-repeat center center;}
+.acc_list li div.block{width:118px;height:78px;overflow:hidden; text-align: center;border:1px solid #666;position: relative;}
+.acc_list li div.block p{width:120px;height:80px;line-height:50px;}
 .acc_list li div.block p:before{
     content:".";  /* 具体的值与垂直居中无关，尽可能的节省字符 */
     margin-left:-5px; font-size:10px;  /* 修复居中的小BUG */
@@ -150,13 +150,21 @@
     *margin-top:expression((400 - this.height )/2);  /* CSS表达式用来兼容IE6/IE7 */
     vertical-align:middle;
 }
-.acc_list li img{max-width:50px;}
+.Approval_inner .Annex_list{position:relative;width:100%;background:none;border:0;}
+.Approval_inner .Annex_list li{width:240px;float: left;border:0;margin:10px 13px 0 0;}
+.Approval_inner .Annex_list li p.txt_hidden{color:#333;width:180px;}
+.Approval_inner .Annex_list li a{color:#347cdc;}
+.edit{border:1px solid #347cdc;}
+.process_box{background:#fff;position: absolute;bottom:5px;left:50px;width:182px;}
+.process_box .process_bar{width:100px;display:inline-block;margin-right:10px;bottom:-4px;background:#eee;}
+.process_box .process_bar .process_bar_in{background:#aaa;}
+.acc_list li img{max-width:120px;}
 .acc_list li .mask{width:50px;height:50px;text-align:center;position: absolute;color:#fff;bottom:0;top:inherit;transition:0.4s;}
 .acc_list li .mask em{position: absolute;width:30px;height:15px;line-height:15px;top:50%;left:50%;margin:-8px 0 0 -15px;}
-.acc_list li .ico-delete4{width:12px;height:12px;background-position:-131px -123px;position: absolute;right:-5px;top:-5px;display:none;z-index:20;}
-.acc_list li:hover .ico-delete4{display:block;}
+.acc_list li .ico-delete4{width:16px;height:16px;background-position:-193px -105px;position: absolute;right:0;top:0;z-index:20;}
 .acc_list li p.txt_hidden{width:70px;line-height:20px;text-align: center;margin-left:-8px;margin-top:3px;}
 .acc_list li p.txt_hidden:hover{outline:1px solid #347cdc;}
+.acc_list .process_box{background:none;left:10px;top:75%;margin-top:-2px;}
 /*通讯录*/
 .contactOut{position: relative;}
 .contact{height:290px;overflow:hidden;overflow-y:auto;border:1px solid #ddd;border-width: 1px 0;padding:13px 0;}
