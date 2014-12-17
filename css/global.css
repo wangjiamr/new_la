@@ -242,19 +242,22 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .ico-all{width:21px;height:48px;background:#ccc;position: absolute;left:-21px;top:-1px;display:none;text-align: center;}
 .ico-all:hover{background:#888;}
 .ico-all em{display: inline-block;width:0;height:0;border-top:4px solid transparent;border-bottom:4px solid transparent;border-left:5px solid #fff;position: relative;top:19px;}
-.ico-Collect,.ico-Finance,.ico-Admin,.ico-material,.ico-Other,.ico-Stop{width:17px;height:17px;vertical-align:-4px;margin-right:4px;}
+.ico-Collect,.ico-Finance,.ico-Admin,.ico-material,.ico-Other,.ico-Stop,.ico-Per{width:17px;height:17px;vertical-align:-4px;margin-right:4px;}
 .ico-Collect{background-position:0 -198px;}/*常用表单*/
 .ico-Finance{background-position:0 -215px;}/*财务类*/
 .ico-Admin{background-position:0 -232px;}/*行政类*/
 .ico-material{background-position:0 -249px;}/*市场类*/
 .ico-Other{background-position:0 -266px;}/*其他类*/
+.ico-Stop{background-position:0 -283px;}/*停用的*/
 .ico-stop{background-position:-120px -252px;}/*停用的*/
+.ico-Per{background-position:-34px -232px;}/*人力类*/
 .current .ico-Collect{background-position:-17px -198px;}/*常用表单*/
 .current .ico-Finance{background-position:-17px -215px;}/*财务类*/
 .current .ico-Admin{background-position:-17px -232px;}/*行政类*/
 .current .ico-material{background-position:-17px -249px;}/*市场类*/
 .current .ico-Other{background-position:-17px -266px;}/*其他类*/
 .current .ico-Stop{background-position:-17px -283px;}/*停用的*/
+.current .ico-Per{background-position:-34px -249px;}/*人力类*/
 .LeftNav .ico-arrow{width:10px;height:16px;position: absolute;background-position: -35px -160px;z-index: 20;right:-10px;}
 .ico-set{background-position: -94px -58px;}
 .ico-set:hover{background-position: -155px -30px;}
