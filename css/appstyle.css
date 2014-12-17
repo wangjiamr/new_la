@@ -236,10 +236,10 @@
 .LineBt{background-position: 0 bottom;}
 .processlist{width:300px;min-height:760px;padding:10px;padding-top:70px;margin:0 6px 0 7px;border:0;position: relative;border-radius:4px;background: url("../img/mask70.png") repeat;}
 .processlist_inner{background:#fff;padding:20px 10px;border-radius:4px;margin-right:20px;}
-.process-in{height:805px;position:absolute;padding-top:10px;width: 9999px;}
+.process-in{position:absolute;width: 9999px;}
 .pro_title{margin-top:-60px;margin-left:25px;margin-bottom:10px;}
 .pro_title .int{border-radius:4px;background:url("../img/mask10.png") repeat;border:0;}
-.item_box,.drag-box{padding:15px 4px 0 10px;border:1px dashed #ccc;position:relative;margin-bottom:30px;line-height:30px;color:#333;border-radius:3px;}
+.item_box,.drag-box{padding:15px 0 0 10px;border:1px dashed #ccc;position:relative;margin-bottom:30px;line-height:30px;color:#333;border-radius:3px;}
 .item_box:hover,.drag-box{background-color:#fefef1;border-color:#347cdc;}
 .item_box.has-touch{border-color:#2d9012;background-color:#f3fef1;}
 .item_box span:hover{text-decoration: underline;cursor: pointer;}

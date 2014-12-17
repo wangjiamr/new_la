@@ -78,31 +78,34 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .card_box{width:810px;margin-left:90px;overflow: hidden;position: relative;}
 .card_box_in{position: absolute;left: 0;}
 .card_list{position: relative;width:810px;}
-.card_list li{width:152px;height:102px;float:left;margin:0 0 10px 10px;background:#fff;border-radius:5px;transition:0.5s;color:#333;overflow: hidden;position: relative;box-shadow: 0 0 10px #444;}
-.card_list li.current{width:314px;height:214px;transition:0.5s;z-index:20;}
-.card_time{position: absolute;right:-1px;left:-1px;bottom:0;min-height:20px;line-height:20px;border-radius:0 0 5px 5px;padding-left:10px;border-top:1px solid #ccc;color:#888;}
-.card_list li .card_time span{margin:0 5px 0 -65px;transition:0.5s;}
-.card_in_main{margin:15px 0 10px 10px;color:#888;}
+.card_list li{width:260px;height:180px;float:left;margin:0 0 10px 10px;background:#fff;transition:0.5s;color:#333;overflow: hidden;position: relative;box-shadow: 0 0 10px #444;}
+/*.card_list li.current{width:314px;height:214px;transition:0.5s;z-index:20;}*/
+.card_time{position: absolute;width:100%;left:0;bottom:0;height:7px;border-radius:0 0 5px 5px;color:#888;}
+.card_list li .card_time p{position: absolute;top:-20px;right:5px;}
+.card_in_main{margin:40px 0 10px 10px;color:#888;}
 .card_in_main p{line-height:20px;position:relative;top:-5px;}
 .card_in_main p em{display:inline-block;width:auto;}
-.card_in_main p.card_number{display:none;}
+/*.card_in_main p.card_number{display:none;}*/
 .card_list li .UserImg,.card_list li .UserImg img,.Approval .UserImg,.Approval .UserImg img{width:30px;height:30px;}
-.card_list li .UserImg{margin-right:5px;}
-.card_title{height:22px;line-height:22px;padding:0 10px;color:#fff;font-size:12px;border-radius:5px 5px 0 0;transition:0.5s;margin:1px;}
-.card_list li.current .card_title,.card_list li.current .card_time{height:30px;line-height:30px;font-size:16px;transition:0.5s;}
-.card_list li.current .card_time{font-size:12px;min-height:30px;padding:4px 0;height:auto;line-height:24px;border:0;}
-.card_list li.current .card_time p{padding-left:10px;}
+.card_list li .UserImg,.card_list li .UserImg img{width:60px;height:60px;}
+.card_list li .UserImg{margin-top:10px;border:2px solid #fff;}
+.card_title{height:90px;line-height:26px;padding:0 10px;color:#fff;font-size:16px;transition:0.5s;}
+.card_txt{position:relative;top:20px;}
+.card_txt p{line-height:20px;color:#fff;opacity:0.6;}
+/*.card_list li.current .card_title,.card_list li.current .card_time{height:30px;line-height:30px;font-size:16px;transition:0.5s;}*/
+/*.card_list li.current .card_time{font-size:12px;min-height:30px;padding:4px 0;height:auto;line-height:24px;border:0;}*/
+/*.card_list li.current .card_time p{padding-left:10px;}*/
 .card_list li .card_time p.txt_hidden{display: none;}
-.card_list li.current .card_time p.txt_hidden{display:block;width:305px;}
-.card_list li.current .card_time span{margin:0;transition:0.5s;}
-.card_list li.current .UserImg,.card_list li.current .UserImg img{width:70px;height:70px;}
-.card_list li.current .card_in_main{margin-top:25px;}
-.card_list li.current .card_in_main p *{font-size:14px;}
-.card_list li.current .card_in_main p{padding-top:4px;top:0;}
-.card_list li.current .card_in_main p.card_number{display: block;}
-.card_list li.current .card_in_main p em{display:inline-block;width:75px;text-align: right;}
-.process_bar{height:5px;position:relative;width:100%;background:#ddd;margin:2px 0;display: none;}
-.process_bar span.process_bar_in{display:inline-block;position:absolute;left:0;top:0;height:5px;transition:0.4s;}
+/*.card_list li.current .card_time p.txt_hidden{display:block;width:305px;}*/
+/*.card_list li.current .card_time span{margin:0;transition:0.5s;}*/
+/*.card_list li.current .UserImg,.card_list li.current .UserImg img{width:70px;height:70px;}*/
+/*.card_list li.current .card_in_main{margin-top:25px;}*/
+/*.card_list li.current .card_in_main p *{font-size:14px;}*/
+/*.card_list li.current .card_in_main p{padding-top:4px;top:0;}*/
+/*.card_list li.current .card_in_main p.card_number{display: block;}*/
+/*.card_list li.current .card_in_main p em{display:inline-block;width:75px;text-align: right;}*/
+.process_bar{height:7px;position:relative;width:100%;background:#ddd;}
+.process_bar span.process_bar_in{display:inline-block;position:absolute;left:0;top:1px;height:5px;transition:0.4s;}
 .card_list li.current .process_bar{display: block;}
 
 

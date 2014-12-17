@@ -319,6 +319,7 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .ico-7{background-position:-109px -132px;}
 /*弹出*/
 .loading{position:absolute;width:50px;height:50px;top:50%;left:50%;margin:-25px 0 0 -25px;}
+.loading img{width:100%;-webkit-animation:spin 650ms infinite linear;animation:spin 650ms infinite linear;}
 .mask{width: 100%;height: 100%;position: fixed;top:0;left:0;z-index:100;}
 .sending{width:220px;height:170px;margin:-85px 0 0 -110px;background: url("../img/mask70.png") repeat;}
 
@@ -408,7 +409,6 @@ div.int_txt{border-width:0 0 1px 0;text-indent: 40px;min-height:30px;height:auto
         transform: none
     }
 }
-
 @keyframes fadeInLeft {
     0% {
         opacity: 0;
@@ -423,7 +423,6 @@ div.int_txt{border-width:0 0 1px 0;text-indent: 40px;min-height:30px;height:auto
         transform: none
     }
 }
-
 .fadeInLeft {
     -webkit-animation-name: fadeInLeft;
     animation-name: fadeInLeft
@@ -440,7 +439,6 @@ div.int_txt{border-width:0 0 1px 0;text-indent: 40px;min-height:30px;height:auto
         transform: none
     }
 }
-
 @keyframes fadeInRight {
     0% {
         opacity: 0;
@@ -455,12 +453,10 @@ div.int_txt{border-width:0 0 1px 0;text-indent: 40px;min-height:30px;height:auto
         transform: none
     }
 }
-
 .fadeInRight {
     -webkit-animation-name: fadeInRight;
     animation-name: fadeInRight
 }
-
 @-webkit-keyframes fadeInRightBig {
     0% {
         opacity: 0;
@@ -473,7 +469,14 @@ div.int_txt{border-width:0 0 1px 0;text-indent: 40px;min-height:30px;height:auto
         transform: none
     }
 }
-
+@-webkit-keyframes spin {
+  0%   { -webkit-transform: rotate(0deg);}
+  100% { -webkit-transform: rotate(360deg);}
+}
+@keyframes spin {
+  0%   {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
 
 
 
