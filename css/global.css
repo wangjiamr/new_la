@@ -248,7 +248,7 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .ico-Admin{background-position:0 -232px;}/*行政类*/
 .ico-material{background-position:0 -249px;}/*市场类*/
 .ico-Other{background-position:0 -266px;}/*其他类*/
-.ico-Stop{background-position:0 -283px;}/*停用的*/
+.ico-stop{background-position:-120px -252px;}/*停用的*/
 .current .ico-Collect{background-position:-17px -198px;}/*常用表单*/
 .current .ico-Finance{background-position:-17px -215px;}/*财务类*/
 .current .ico-Admin{background-position:-17px -232px;}/*行政类*/
@@ -267,8 +267,7 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 /*.ico-down2:hover{background-position:-155px -225px;}*/
 .ico-Started{background-position:-155px -120px;}
 .ico-Started:hover{background-position:-155px -150px;}
-.ico-delete2{background-position: -94px -88px;}
-.ListTitle span:hover .ico-delete2,.ico-delete2:hover{background-position: -94px -103px;}
+.ico-delete2{background-position: -120px -272px;}
 .ico-Col{background-position: -94px -28px;}
 .ico-Col:hover{background-position: -155px 0;}
 .ico-Col2{background-position: -155px -90px;}
@@ -298,7 +297,7 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .ico-clander{width:12px;height:11px;background-position:-131px -135px;position: absolute;right:3px;top:10px;z-index:10;}
 .ico-clander:hover{background-position:-131px -150px;}
 .Column .ico-clander{top:4px;}
-.ico-edit,.ico-delete5{width:14px;height:14px;background-position:-155px -240px;}
+.ico-edit,.ico-delete5{background-position:-120px -232px;}
 .ico-delete5{background-position:-155px -268px;}
 .ico-e1,.ico-link,.ico-code{width:17px;height:17px;background-position:-170px -60px;margin-right:10px;}
 .ico-link{background-position:-170px -80px;}
@@ -377,26 +376,16 @@ div.int_txt{border-width:0 0 1px 0;text-indent: 40px;min-height:30px;height:auto
 .UserList li:hover .int{border-color:#ccc;transition:0.5s;text-indent:5px;}
 .UserList li:hover .int:focus{border-color:#aaa;}
 .bg-waring{background:#e9505f!important;}
-.bg-01{background-color:#ff1f5e;}
-/*.bg-01 span.process_bar_in{background-color:#ff1f5e;}*/
-.bg-02{background-color:#fd5129;}
-/*.bg-02 span.process_bar_in{background-color:#fd5129;}*/
-.bg-03{background-color:#ffa700;}
-/*.bg-03 span.process_bar_in{background-color:#ffa700;}*/
-.bg-04{background-color:#00cf77;}
-/*.bg-04 span.process_bar_in{background-color:#ffa700;}*/
-.bg-05{background-color:#3ab9f0;}
-/*.bg-05 span.process_bar_in{background-color:#3ab9f0;}*/
-.bg-06{background-color:#70d4d4;}
-/*.bg-06 span.process_bar_in{background-color:#70d4d4;}*/
-.bg-07{background-color:#a13e96;}
-/*.bg-07 span.process_bar_in{background-color:#a13e96;}*/
-.bg-08{background-color:#006566;}
-/*.bg-08 span.process_bar_in{background-color:#006566;}*/
-.bg-09{background-color:#5f8c63;}
-/*.bg-09 span.process_bar_in{background-color:#5f8c63;}*/
-.bg-10{background-color:#c594d5;}
-/*.bg-10 span.process_bar_in{background-color:#c594d5;}*/
+.bg-01,.bg-01 .li_cover table tr th:hover,.bg-01 .li_cover table tr td:hover{background-color:#ff1f5e;}
+.bg-02,.bg-02 .li_cover table tr th:hover,.bg-02 .li_cover table tr td:hover{background-color:#fd5129;}
+.bg-03,.bg-03 .li_cover table tr th:hover,.bg-03 .li_cover table tr td:hover{background-color:#ffa700;}
+.bg-04,.bg-04 .li_cover table tr th:hover,.bg-04 .li_cover table tr td:hover{background-color:#00cf77;}
+.bg-05,.bg-05 .li_cover table tr th:hover,.bg-05 .li_cover table tr td:hover{background-color:#3ab9f0;}
+.bg-06,.bg-06 .li_cover table tr th:hover,.bg-06 .li_cover table tr td:hover{background-color:#70d4d4;}
+.bg-07,.bg-07 .li_cover table tr th:hover,.bg-07 .li_cover table tr td:hover{background-color:#a13e96;}
+.bg-08,.bg-08 .li_cover table tr th:hover,.bg-08 .li_cover table tr td:hover{background-color:#006566;}
+.bg-09,.bg-09 .li_cover table tr th:hover,.bg-09 .li_cover table tr td:hover{background-color:#5f8c63;}
+.bg-10,.bg-10 .li_cover table tr th:hover,.bg-10 .li_cover table tr td:hover{background-color:#c594d5;}
 @-webkit-keyframes fadeInLeft {
     0% {
         opacity: 0;
