@@ -279,10 +279,7 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .ico-delete3:hover{background-position: -155px -15px;}
 .ico-Stop2{background-position:-155px -135px;}
 .ico-Stop2:hover{background-position:-155px -165px;}
-/*.ico-Stop2{background-position: -94px -73px;}*/
-/*.ico-Stop2:hover{background-position: -155px -45px;}*/
 .ico-arrow2{width:11px;height:11px;background-position:-98px -164px;margin:0 8px 0 12px;top:1px;}
-/*.Item tbody tr.current .ico-arrow2{background-position:-98px -180px;}*/
 .ico-check,.ico-lock{width:16px;height:16px;background-position: -94px -198px;cursor: pointer;vertical-align:-10px;margin-right:0;}
 .checked .ico-check{background-position: -94px -214px;}
 .check{cursor: pointer;}
@@ -309,6 +306,7 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .ico-arrow-r{width:9px;height:12px;background-position:-175px -232px;}
 .no .ico-arrow-l{background-position:-185px -216px;}
 .no .ico-arrow-r{background-position:-185px -232px;}
+.ico-emergency{width:22px;height:22px;background-position:-193px -165px;top:4px;}/*紧急*/
 /*表单图标背景和ico*/
 .bg{display: inline-block;width:48px;height:48px;text-align: center;line-height: 48px;position: relative;border-radius:50em;behavior: url(../css/PIE.htc);}
 .ico{width: 22px;height:22px;vertical-align: -6px;position:absolute;top: 50%;left:50%;margin:-11px 0 0 -11px;}
