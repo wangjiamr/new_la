@@ -23,27 +23,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="243" column="34" selection-start="16795" selection-end="16795" vertical-scroll-proportion="0.42036837" vertical-offset="6173" max-vertical-offset="8478">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="apply_form.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/apply_form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="86" column="59" selection-start="3766" selection-end="3766" vertical-scroll-proportion="-3.375" vertical-offset="2214" max-vertical-offset="10611">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="流程管理step1.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template/流程管理step1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="313" column="88" selection-start="16854" selection-end="16867" vertical-scroll-proportion="-19.8125" vertical-offset="1040" max-vertical-offset="2106">
+            <state line="312" column="56" selection-start="16773" selection-end="16773" vertical-scroll-proportion="-18.96875" vertical-offset="1040" max-vertical-offset="2106">
               <folding>
                 <element signature="tag#div#3;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="tag#div#1;tag#div#0;tag#div#0;tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="tag#ul#1;tag#div#0;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="246" column="68" selection-start="17016" selection-end="17016" vertical-scroll-proportion="0.2156013" vertical-offset="6443" max-vertical-offset="8262">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -51,37 +59,33 @@
       <file leaf-file-name="process_admin.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template/process_admin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="23" selection-start="614" selection-end="617" vertical-scroll-proportion="-13.5" vertical-offset="0" max-vertical-offset="1350">
+            <state line="13" column="26" selection-start="397" selection-end="407" vertical-scroll-proportion="-10.96875" vertical-offset="0" max-vertical-offset="2862">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/list.html">
+      <file leaf-file-name="n_list.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/n_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="25" selection-start="0" selection-end="23589" vertical-scroll-proportion="-9.28125" vertical-offset="0" max-vertical-offset="945">
-              <folding>
-                <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#2;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#3;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#0;tag#div#0;tag#td#0;tag#tr#0;tag#table#0;tag#div#3;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#ul#0;tag#div#0;tag#td#0;tag#tr#0;tag#table#0;tag#div#3;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#4;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="流程管理step2.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/流程管理step2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="378">
+            <state line="437" column="79" selection-start="26231" selection-end="26231" vertical-scroll-proportion="-18.125" vertical-offset="11219" max-vertical-offset="14985">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="126" column="72" selection-start="6348" selection-end="6358" vertical-scroll-proportion="-22.78125" vertical-offset="2673" max-vertical-offset="16065">
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="tag#table#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,7 +93,7 @@
       <file leaf-file-name="Mutual.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/Mutual.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="1701">
+            <state line="48" column="36" selection-start="1457" selection-end="1457" vertical-scroll-proportion="0.0" vertical-offset="738" max-vertical-offset="2025">
               <folding />
             </state>
           </provider>
@@ -108,15 +112,6 @@
                 <element signature="n#style#0;n#div#0;n#div#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form_process.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/form_process.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="0" selection-start="3728" selection-end="3728" vertical-scroll-proportion="-19.8125" vertical-offset="1715" max-vertical-offset="3213">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -155,7 +150,7 @@
       <file leaf-file-name="list_doing.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template/list_doing.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="0" selection-start="3217" selection-end="3217" vertical-scroll-proportion="-3.78125" vertical-offset="1958" max-vertical-offset="4779">
+            <state line="107" column="153" selection-start="5297" selection-end="5297" vertical-scroll-proportion="-18.96875" vertical-offset="2282" max-vertical-offset="4779">
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -188,7 +183,6 @@
         <option value="$PROJECT_DIR$/css/jscrollpane.css" />
         <option value="$PROJECT_DIR$/template/通讯录.html" />
         <option value="$PROJECT_DIR$/template/apply_form2.html" />
-        <option value="$PROJECT_DIR$/template/apply_form.html" />
         <option value="$PROJECT_DIR$/template/n_list_fujian.html" />
         <option value="$PROJECT_DIR$/template/list.html" />
         <option value="$PROJECT_DIR$/template/n_list_shenpi.html" />
@@ -196,18 +190,19 @@
         <option value="$PROJECT_DIR$/template/creat_form.html" />
         <option value="$PROJECT_DIR$/template/process.html" />
         <option value="$PROJECT_DIR$/js/html5shiv.min.js" />
-        <option value="$PROJECT_DIR$/template/n_list.html" />
-        <option value="$PROJECT_DIR$/js/Mutual.js" />
         <option value="$PROJECT_DIR$/template/search.html" />
         <option value="$PROJECT_DIR$/template/apply.html" />
-        <option value="$PROJECT_DIR$/template/list_doing.html" />
         <option value="$PROJECT_DIR$/template/form_process.html" />
-        <option value="$PROJECT_DIR$/template/home.html" />
         <option value="$PROJECT_DIR$/template/流程管理step2.html" />
-        <option value="$PROJECT_DIR$/template/流程管理step1.html" />
+        <option value="$PROJECT_DIR$/js/Mutual.js" />
         <option value="$PROJECT_DIR$/css/appstyle.css" />
+        <option value="$PROJECT_DIR$/template/n_list.html" />
+        <option value="$PROJECT_DIR$/template/home.html" />
         <option value="$PROJECT_DIR$/css/global.css" />
+        <option value="$PROJECT_DIR$/template/list_doing.html" />
+        <option value="$PROJECT_DIR$/template/apply_form.html" />
         <option value="$PROJECT_DIR$/template/process_admin.html" />
+        <option value="$PROJECT_DIR$/template/流程管理step1.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
@@ -430,7 +425,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="177" column="27" selection-start="11779" selection-end="11779" vertical-scroll-proportion="0.0" vertical-offset="4597" max-vertical-offset="13554">
           <folding>
-            <marker date="1418893881865" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1418900115207" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -538,7 +533,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="37" selection-start="3151" selection-end="3151" vertical-scroll-proportion="0.0" vertical-offset="970" max-vertical-offset="13635">
           <folding>
-            <marker date="1418893881865" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1418900115207" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -563,13 +558,6 @@
     <entry file="file://$PROJECT_DIR$/template/apply_form2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="27" selection-start="1630" selection-end="1630" vertical-scroll-proportion="0.0" vertical-offset="999" max-vertical-offset="5832">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/apply_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="27" selection-start="3564" selection-end="3564" vertical-scroll-proportion="0.0" vertical-offset="2214" max-vertical-offset="10611">
           <folding />
         </state>
       </provider>
@@ -665,13 +653,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/Mutual.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="1701">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template/search.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="124" column="0" selection-start="5008" selection-end="5008" vertical-scroll-proportion="-21.5" vertical-offset="2660" max-vertical-offset="4725">
@@ -683,24 +664,6 @@
             <element signature="tag#table#0;tag#div#0;tag#div#1;tag#div#0;tag#div#5;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#div#0;n#div#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/list_doing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="0" selection-start="3217" selection-end="3217" vertical-scroll-proportion="-3.78125" vertical-offset="1958" max-vertical-offset="4779">
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="tag#li#2;tag#ul#0;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="tag#li#3;tag#ul#0;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="tag#li#4;tag#ul#0;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#div#0;n#li#4;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="tag#li#5;tag#ul#0;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -741,55 +704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/流程管理step2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="936">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="54" selection-start="0" selection-end="47627" vertical-scroll-proportion="-1.21875" vertical-offset="2661" max-vertical-offset="16065">
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#div#0;n#li#4;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#div#0;n#li#5;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="tag#table#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#div#1;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#div#1;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#4;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#1;n#div#1;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#5;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#1;n#div#1;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#4;n#tr#0;n#thead#0;n#table#0;n#div#2;n#div#1;n#div#1;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#5;n#tr#0;n#thead#0;n#table#0;n#div#2;n#div#1;n#div#1;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#2;n#div#1;n#div#1;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#2;n#div#1;n#div#1;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#5;n#tr#0;n#tbody#0;n#table#0;n#div#2;n#div#1;n#div#1;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#2;n#tbody#0;n#table#0;n#div#2;n#div#1;n#div#1;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#div#2;n#div#1;n#div#1;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#5;n#tr#2;n#tbody#0;n#table#0;n#div#2;n#div#1;n#div#1;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#4;n#tr#0;n#thead#0;n#table#0;n#div#3;n#div#1;n#div#1;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#3;n#div#1;n#div#1;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#4;n#tr#1;n#tbody#0;n#table#0;n#div#3;n#div#1;n#div#1;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#4;n#tbody#0;n#table#0;n#div#3;n#div#1;n#div#1;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#4;n#tr#4;n#tbody#0;n#table#0;n#div#3;n#div#1;n#div#1;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#0;n#div#4;n#div#1;n#div#1;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#4;n#tr#0;n#thead#0;n#table#0;n#div#4;n#div#1;n#div#1;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#4;n#div#1;n#div#1;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#4;n#div#1;n#div#1;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template/apply.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="72" selection-start="1584" selection-end="2103" vertical-scroll-proportion="-14.28125" vertical-offset="704" max-vertical-offset="3159">
@@ -801,27 +715,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/n_list.html">
+    <entry file="file://$PROJECT_DIR$/js/Mutual.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="500" column="8" selection-start="29604" selection-end="29893" vertical-scroll-proportion="-4.1585364" vertical-offset="13159" max-vertical-offset="14418">
+        <state line="48" column="36" selection-start="1457" selection-end="1457" vertical-scroll-proportion="0.0" vertical-offset="738" max-vertical-offset="2025">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/appstyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="198" column="23" selection-start="13286" selection-end="13286" vertical-scroll-proportion="0.0" vertical-offset="5034" max-vertical-offset="13176">
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#1;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1418900115207" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="25" selection-start="0" selection-end="23589" vertical-scroll-proportion="-9.28125" vertical-offset="0" max-vertical-offset="945">
+        <state line="11" column="25" selection-start="358" selection-end="358" vertical-scroll-proportion="0.32853982" vertical-offset="0" max-vertical-offset="1566">
           <folding>
-            <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#2;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#3;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
@@ -832,49 +745,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/appstyle.css">
+    <entry file="file://$PROJECT_DIR$/template/n_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="0" selection-start="6215" selection-end="6215" vertical-scroll-proportion="0.0" vertical-offset="2177" max-vertical-offset="13473">
+        <state line="437" column="79" selection-start="26231" selection-end="26231" vertical-scroll-proportion="-18.125" vertical-offset="11219" max-vertical-offset="14985">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="72" selection-start="6348" selection-end="6358" vertical-scroll-proportion="-22.78125" vertical-offset="2673" max-vertical-offset="16065">
           <folding>
-            <marker date="1418893881865" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#table#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/global.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="308" column="91" selection-start="17309" selection-end="17309" vertical-scroll-proportion="0.0" vertical-offset="7722" max-vertical-offset="13554">
+        <state line="131" column="0" selection-start="5167" selection-end="5167" vertical-scroll-proportion="0.0" vertical-offset="3203" max-vertical-offset="13419">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/list_doing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="153" selection-start="5297" selection-end="5297" vertical-scroll-proportion="-18.96875" vertical-offset="2282" max-vertical-offset="4779">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#li#2;tag#ul#0;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#li#3;tag#ul#0;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#li#4;tag#ul#0;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#div#0;n#li#4;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#li#5;tag#ul#0;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/apply_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="59" selection-start="3766" selection-end="3766" vertical-scroll-proportion="-3.375" vertical-offset="2214" max-vertical-offset="10611">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/流程管理step1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="313" column="88" selection-start="16854" selection-end="16867" vertical-scroll-proportion="-19.8125" vertical-offset="1040" max-vertical-offset="2106">
+        <state line="312" column="56" selection-start="16773" selection-end="16773" vertical-scroll-proportion="-18.96875" vertical-offset="1040" max-vertical-offset="2106">
           <folding>
             <element signature="tag#div#3;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="tag#div#1;tag#div#0;tag#div#0;tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="tag#ul#1;tag#div#0;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/process_admin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="23" selection-start="614" selection-end="617" vertical-scroll-proportion="-13.5" vertical-offset="0" max-vertical-offset="1350">
+        <state line="13" column="26" selection-start="397" selection-end="407" vertical-scroll-proportion="-10.96875" vertical-offset="0" max-vertical-offset="2862">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="246" column="68" selection-start="17016" selection-end="17016" vertical-scroll-proportion="0.2156013" vertical-offset="6443" max-vertical-offset="8262">
+        <state line="243" column="34" selection-start="16795" selection-end="16795" vertical-scroll-proportion="0.42036837" vertical-offset="6173" max-vertical-offset="8478">
           <folding />
         </state>
       </provider>
