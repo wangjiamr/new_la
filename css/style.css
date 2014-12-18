@@ -9,6 +9,8 @@
 .top_nav a{display:inline-block;color:#d7d7d7;margin:0 10px;line-height:40px;padding:0 10px;}
 .top_nav a.current{color:#59a7f9;}
 .top_nav a.new_btn{height:24px;line-height:24px;color:#fff;margin:0 5px;}
+.top_nav_bg a{padding:0 20px;}
+.top_nav_bg a.current{color:#fff;background-color:#347cdc;}
 .top_set{width:160px;height:24px;border-left:1px solid #505052;position: relative;top:8px;*margin-top:-40px;}
 .ico-bg,.ico-home2,.ico-search{width:22px;height:22px;background-position:-155px -428px;margin-left:20px;}
 .ico-home2{background-position:-177px -428px;}
@@ -100,6 +102,8 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .process_bar{height:7px;position:relative;width:100%;background:#ddd;}
 .process_bar span.process_bar_in{display:inline-block;position:absolute;left:0;top:1px;height:5px;transition:0.4s;}
 .card_list li.current .process_bar{display: block;}
+.process-admin .card_box_in{position: relative;top:0;left:0;margin: 0;overflow: hidden;}
+.card_out p.aligncenter{line-height:30px;position: relative;bottom:-5px;}
 
 .card_theme1 .card_title{background:#5bb259;}
 .card_theme1 p i{color:#5bb259;}
@@ -239,6 +243,8 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .form_bottom .Btn.Btn-commit{background: #54c34e;}
 /*编辑流程*/
 .process_out{width:1100px;}
+.switch{display: inline-block;width:40px;height:20px;border:1px solid #787878;border-radius:3px;}
+div.Btn:hover{background:none!important;padding-left:10px!important;}
 /*搜索*/
 .Results{width:200px;background:url("../img/mask70.png") repeat;position: absolute;right:0;top:40px;}
 .Re_item{padding:10px 0 10px 10px;border-bottom: 1px solid #0a1414;color:#fff;}
