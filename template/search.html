@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>new list</title>
+    <link rel="stylesheet" type="text/css" href="../css/global.css">
+    <link rel="stylesheet" type="text/css" href="../css/appstyle.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+<div class="layout">
+    <img src="../img/home_bg2.jpg" class="autoImg">
+    <div class="layout">
+        <!--header begin-->
+        <div class="top_header">
+            <span class="inlineblock company_logo"><img src="../img/n_logo.png"></span>
+            <span class="inlineblock company_name font14 marl20 color-white">上海万企明道软件有限公司</span>
+            <div class="top_nav aligncenter font14">
+                <a href="javascript:;">我的</a>
+                <a href="javascript:;">申请</a>
+                <a href="javascript:;">审批</a>
+                <a href="javascript:;">经办</a>
+                <a href="javascript:;">传阅</a>
+                <a href="javascript:;" class="new_btn font12 ie-css3">新建申请</a>
+            </div>
+            <div class="top_set floatright">
+                <a href="javascript:;" class="Icon ico-bg"></a>
+                <a href="javascript:;" class="Icon ico-home2"></a>
+                <a href="javascript:;" class="Icon ico-search"></a>
+            </div>
+            <div class="User floatright marr20">
+                <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+                <span>行走江湖</span>
+            </div>
+        </div>
+        <!--二级菜单begin-->
+        <div class="second_header aligncenter">
+            <a href="javascript:;">进行中</a>
+            <a href="javascript:;" class="current">已完成</a>
+        </div>
+        <!--二级菜单over-->
+        <!--header over-->
+        <!--底部导航begin-->
+        <div class="bottom_nav clearfix">
+            <a href="javascript:;" class="inlineblock">
+                <i class="Icon ico-b1"></i>
+                <span class="block">创建表单</span>
+            </a>
+            <a href="javascript:;" class="inlineblock">
+                <i class="Icon ico-b2"></i>
+                <span class="block">新建角色</span>
+            </a>
+            <a href="javascript:;" class="inlineblock">
+                <i class="Icon ico-b3"></i>
+                <span class="block">表单管理</span>
+            </a>
+            <a href="javascript:;" class="inlineblock">
+                <i class="Icon ico-b4"></i>
+                <span class="block">角色管理</span>
+            </a>
+            <a href="javascript:;" class="inlineblock">
+                <i class="Icon ico-b5"></i>
+                <span class="block">流程管理</span>
+            </a>
+            <a href="javascript:;" class="inlineblock">
+                <i class="Icon ico-b6"></i>
+                <span class="block">日志</span>
+            </a>
+        </div>
+        <!--底部导航over-->
+        <!--搜索begin-->
+        <div class="new_search clearfix">
+            <input type="text" class="int floatleft" placeholder="申请 / 时间 / 人员">
+            <a href="javascript:;" class="new_btn marl10"><i class="Icon ico-search"></i></a>
+            <div class="mart10 font14">
+                <span>正在搜索</span>
+                <a href="javascript:;" class="">全站<i class="Icon ico-arrow"></i></a>
+                <!--下拉框begin-->
+                <div class="ser_Results ie-css3 width-60">
+                    <ul>
+                        <li>申请</li>
+                        <li>审批</li>
+                        <li>经办</li>
+                        <li>转阅</li>
+                    </ul>
+                </div>
+                <!--下拉框over-->
+            </div>
+        </div>
+        <!--搜索over-->
+        <!--搜索结果begin-->
+        <div class="Results">
+            <div class="Re_item">
+                <p>共为您找到<em>23</em>条相关信息</p>
+            </div>
+            <div class="Re_item">
+                <div class="new_search">
+                    <input type="text" class="int floatleft" placeholder="">
+                    <a href="javascript:;" class="new_btn"><i class="Icon ico-search"></i></a>
+                </div>
+            </div>
+            <div class="Re_item font14">
+                <p>申请</p>
+                <ul class="mart10">
+                    <li><a href="javascript:;">进行中<em>10</em></a></li>
+                    <li><a href="javascript:;">已完成<em>9</em></a></li>
+                </ul>
+            </div>
+            <div class="Re_item font14">
+                <p>审批</p>
+                <ul class="mart10">
+                    <li><a href="javascript:;">进行中<em>10</em></a></li>
+                    <li><a href="javascript:;">已完成<em>9</em></a></li>
+                </ul>
+            </div>
+            <div class="Re_item font14">
+                <p>经办</p>
+                <ul class="mart10">
+                    <li><a href="javascript:;">进行中<em>10</em></a></li>
+                    <li><a href="javascript:;">已完成<em>9</em></a></li>
+                </ul>
+            </div>
+            <div class="Re_item font14">
+                <p>转阅<em>10</em></p>
+            </div>
+        </div>
+        <!--搜索结果over-->
+        <!--主要内容begin-->
+        <div class="new_main">
+            <!--list begin-->
+            <div class="list_main" style="display: none;">
+                <div class="r_btn">
+                    <a href="javascript:;" class="Icon ico-re"></a>
+                    <a href="javascript:;" class="Icon ico-prev"></a>
+                    <a href="javascript:;" class="Icon ico-next"></a>
+                </div>
+                <table class="list_table">
+                    <thead>
+                        <tr>
+                            <th class="width-80">状态</th>
+                            <th>申请单据</th>
+                            <th class="width-140">审批人</th>
+                            <th class="width-140">申请时间</th>
+                        </tr>
+                    </thead>
+                </table>
+                <div class="list_table_box" style="height:410px;">
+                    <div class="list_table_in" style="height:410px;top: 0px;">
+                        <table class="list_table">
+                            <tbody>
+                                <tr>
+                                    <td class="width-80">
+                                        <div class="inner_td">
+                                            <span class="color_mark">
+                                                <i class="Icon color_1"></i>
+                                                <em class="color_2">执</em>
+                                            </span>
+                                            <!--提示框begin-->
+                                            <div class="prompt_box">
+                                                <span class="Icon prompt_top"></span>
+                                                <div class="prompt_main">
+                                                    <div class="prompt_title clearfix alignright">
+                                                        <div class="floatleft">
+                                                             <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+                                                             <span>赵阳</span>
+                                                        </div>
+                                                        <span class="state s_over">已完成</span>
+                                                    </div>
+                                                    <div class="marl10 mart10">
+                                                        <p>上海万企明道软件有限公司上海万企明道软件有限公司</p>
+                                                        <p>北京研发中心</p>
+                                                        <p>产品经理</p>
+                                                    </div>
+                                                </div>
+                                                <span class="Icon prompt_bt"></span>
+                                            </div>
+                                            <!--提示框over-->
+                                        </div>
+                                    </td>
+                                    <td><div class="inner_td">基层员工标准请假申请工单</div></td>
+                                    <td class="width-140">
+                                        <div class="inner_td">
+                                            <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+                                            <span>行走江湖</span>
+                                            <!--提示框begin-->
+                                            <div class="prompt_box" style="left:-65px;top:35px;">
+                                                <span class="Icon prompt_top"></span>
+                                                <div class="prompt_main">
+                                                    <div class="prompt_title">
+                                                        审批已完成 <span class="add marl5">5/10</span>
+                                                    </div>
+                                                    <ul class="user_li">
+                                                        <li class="clearfix">
+                                                            <span class="UserImg inlineblock floatleft mart10 marr10 ie-css3"><img src="../img/1.png"></span>
+                                                            <p class="alignright">
+                                                                <span class="color-3 floatleft">张睿</span>
+                                                                <em class="s_no">否决申请</em>
+                                                            </p>
+                                                            <p class="color-8 alignright">2014-12-01  14:11</p>
+                                                        </li>
+                                                        <li class="clearfix">
+                                                            <span class="UserImg inlineblock floatleft mart10 marr10 ie-css3"><img src="../img/1.png"></span>
+                                                            <p class="alignright">
+                                                                <span class="color-3 floatleft">张睿</span>
+                                                                <em>通过申请</em>
+                                                            </p>
+                                                            <p class="color-8 alignright">2014-12-01  14:11</p>
+                                                        </li>
+                                                        <li class="clearfix">
+                                                            <span class="UserImg inlineblock floatleft mart10 marr10 ie-css3"><img src="../img/1.png"></span>
+                                                            <p class="alignright">
+                                                                <span class="color-3 floatleft">张睿</span>
+                                                                <em>通过申请</em>
+                                                            </p>
+                                                            <p class="color-8 alignright">2014-12-01  14:11</p>
+                                                        </li>
+                                                        <li class="clearfix">
+                                                            <span class="UserImg inlineblock floatleft mart10 marr10 ie-css3"><img src="../img/1.png"></span>
+                                                            <p class="alignright">
+                                                                <span class="color-3 floatleft">张睿</span>
+                                                                <em>通过申请</em>
+                                                            </p>
+                                                            <p class="color-8 alignright">2014-12-01  14:11</p>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <span class="Icon prompt_bt"></span>
+                                            </div>
+                                            <!--提示框over-->
+                                        </div>
+                                    </td>
+                                    <td class="width-140">
+                                        <div class="inner_td">
+                                            <span>2014-06-30  14:32</span>
+                                            <div class="MakeBtn">
+                                                <a href="javascript:;"><i class="Icon ico-turn"></i></a>
+                                                <a href="javascript:;" class="delete"><i class="Icon ico-delete"></i></a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="inner_td">
+                                            <span class="color_mark color_2">
+                                                <i class="Icon"></i>
+                                                <em>执</em>
+                                            </span>
+                                        </div>
+                                    </td>
+                                    <td><div class="inner_td">基层员工标准请假申请工单基层员工标准请假申请工单</div></td>
+                                    <td>
+                                        <div class="inner_td">
+                                            <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+                                            <span>刘德华</span>
+                                        </div>
+                                    </td>
+                                    <td><div class="inner_td">2014-06-30  14:32</div></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="inner_td">
+                                            <span class="color_mark color_2">
+                                                <i class="Icon"></i>
+                                                <em>执</em>
+                                            </span>
+                                        </div>
+                                    </td>
+                                    <td><div class="inner_td">基层员工标准请假申请工单基层员工标准请假申请工单</div></td>
+                                    <td>
+                                        <div class="inner_td">
+                                            <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+                                            <span>刘德华</span>
+                                        </div>
+                                    </td>
+                                    <td><div class="inner_td">2014-06-30  14:32</div></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="inner_td">
+                                            <span class="color_mark color_2">
+                                                <i class="Icon"></i>
+                                                <em>执</em>
+                                            </span>
+                                        </div>
+                                    </td>
+                                    <td><div class="inner_td">基层员工标准请假申请工单基层员工标准请假申请工单</div></td>
+                                    <td>
+                                        <div class="inner_td">
+                                            <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+                                            <span>刘德华</span>
+                                        </div>
+                                    </td>
+                                    <td><div class="inner_td">2014-06-30  14:32</div></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="inner_td">
+                                            <span class="color_mark color_2">
+                                                <i class="Icon"></i>
+                                                <em>执</em>
+                                            </span>
+                                        </div>
+                                    </td>
+                                    <td><div class="inner_td">基层员工标准请假申请工单基层员工标准请假申请工单</div></td>
+                                    <td>
+                                        <div class="inner_td">
+                                            <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+                                            <span>刘德华</span>
+                                        </div>
+                                    </td>
+                                    <td><div class="inner_td">2014-06-30  14:32</div></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="inner_td">
+                                            <span class="color_mark">
+                                                <i class="Icon color_2"></i>
+                                                <em class="color_2">执</em>
+                                            </span>
+                                        </div>
+                                    </td>
+                                    <td><div class="inner_td">基层员工标准请假申请工单基层员工标准请假申请工单</div></td>
+                                    <td>
+                                        <div class="inner_td">
+                                            <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+                                            <span>刘德华</span>
+                                        </div>
+                                    </td>
+                                    <td><div class="inner_td">2014-06-30  14:32</div></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="inner_td">
+                                            <span class="color_mark">
+                                                <i class="Icon color_2"></i>
+                                                <em class="color_1">执</em>
+                                            </span>
+                                        </div>
+                                    </td>
+                                    <td><div class="inner_td">基层员工标准请假申请工单基层员工标准请假申请工单</div></td>
+                                    <td>
+                                        <div class="inner_td">
+                                            <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+                                            <span>刘德华</span>
+                                        </div>
+                                    </td>
+                                    <td><div class="inner_td">2014-06-30  14:32</div></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="inner_td">
+                                            <span class="color_mark">
+                                                <i class="Icon color_1"></i>
+                                                <em class="color_2">执</em>
+                                            </span>
+                                        </div>
+                                    </td>
+                                    <td><div class="inner_td">基层员工标准请假申请工单基层员工标准请假申请工单</div></td>
+                                    <td>
+                                        <div class="inner_td">
+                                            <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+                                            <span>刘德华</span>
+                                        </div>
+                                    </td>
+                                    <td><div class="inner_td">2014-06-30  14:32</div></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="inner_td">
+                                            <span class="color_mark">
+                                                <i class="Icon color_1"></i>
+                                                <em class="color_2">执</em>
+                                            </span>
+                                        </div>
+                                    </td>
+                                    <td><div class="inner_td">基层员工标准请假申请工单基层员工标准请假申请工单</div></td>
+                                    <td>
+                                        <div class="inner_td">
+                                            <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+                                            <span>刘德华</span>
+                                        </div>
+                                    </td>
+                                    <td><div class="inner_td">2014-06-30  14:32</div></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="inner_td">
+                                            <span class="color_mark">
+                                                <i class="Icon color_2"></i>
+                                                <em class="color_1">执</em>
+                                            </span>
+                                        </div>
+                                    </td>
+                                    <td><div class="inner_td">基层员工标准请假申请工单基层员工标准请假申请工单</div></td>
+                                    <td>
+                                        <div class="inner_td">
+                                            <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+                                            <span>刘德华</span>
+                                        </div>
+                                    </td>
+                                    <td><div class="inner_td">2014-06-30  14:32</div></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <!--list over-->
+        </div>
+        <!--主要内容over-->
+        <!--遮罩层begin-->
+        <div class="mask" style="display:none;"><span class="loading"><img src="../img/loading.gif"/></span></div>
+        <!--遮罩层over-->
+    </div>
+</div>
+<link rel="stylesheet" type="text/css" href="../css/jscrollpane.css">
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/imgauto.js"></script>
+<script type="text/javascript" src="../js/Mutual.js"></script>
+<script type="text/javascript" src="../js/jquery.jscrollpane.min.js"></script>
+<script type="text/javascript" src="../js/jquery.mousewheel.js"></script>
+<script type="text/javascript">
+    $(function() {
+        function Jscroll(){
+            $('.jscroll').jScrollPane({
+                'mouseWheelSpeed':100,
+                "showArrows":false
+            });
+        }
+        Jscroll();
+    });
+</script>
+</body>
+</html>

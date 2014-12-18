@@ -12,7 +12,7 @@
 .footer p a{color:#347cdc;padding-right:20px;}
 .content{width:100%;height:850px;overflow:hidden;}
 .main{width:1000px;margin:0 auto;padding:0 50px;height:100%;position: relative;}
-.UserImg,.UserImg img{width:40px;height:40px;border-radius:50em;}
+.UserImg,.UserImg img{width:40px;height:40px;border-radius:50em;background:#fff;}
 .item_box .UserImg,.item_box .UserImg img{width:30px;height:30px;}
 .DropDown{position: relative;z-index: 20;width:130px;border-right: 1px solid #ccc;border-left: 1px solid #ccc;padding-left:20px;margin-left:20px;}
 .DropDown p{line-height:20px;}
@@ -32,19 +32,8 @@
 .LeftBar ul li.current dd a{color:#888;}
 .LeftBar ul li.current a,.ListMain .ListTitle em,.LeftBar ul li dd.current a,.LeftBar ul li.current dd:hover a{color: #347cdc;}
 .LeftBar ul li:hover a{background-color:#d5d5d5;}
-.prompt{display:inline-block;min-width:24px;text-align:center;height:16px;border-radius:6px;line-height:16px;color: #fff;background-color: #999;float: right;}
-.LeftBar ul a .prompt{margin-top:14px;margin-right:20px;*margin-top:-28px;position:relative;}
-.LeftBar ul li.current a .prompt{background-color: #59a7f9;}
-.NewBar ul li:hover a,.LeftBar ul li.current:hover a{background:none;}
+.prompt{display:inline-block;min-width:20px;text-align:center;font-size:10px;height:16px;border-radius:8px;line-height:16px;margin-left:5px;color: #fff;background-color: #da2c2c;}
 
-.LeftBar ul li dd a{font-size:14px;height:25px;line-height:25px;margin:0 60px 5px 0;}
-.LeftBar ul li:hover dd a{background:none;}
-.LeftBar ul li dl{display: none;}
-.LeftBar ul li.current dl{display:block;}
-
-.rightBar{width:819px;border-left:1px solid #aaa;position: relative;overflow: hidden;background-color: #fff;}
-.rightMove{margin-left: -190px;}
-.rightIn{padding:27px 0 0 39px;}
 .nav a{display: inline-block;height:29px;line-height:29px;width:33%;color:#888;border:1px solid #ddd;border-top:0;margin-left:-1px;text-align: center;float: left;}
 .nav a.current,.nav a:hover{color:#fff;background:#347cdc;border-color:#347cdc;}
 .nav .borderBt{width:49px;font-size:0;line-height:0;border-bottom:2px solid #59a7f9;position: absolute;bottom:-1px;left:0;}
@@ -100,7 +89,6 @@
 .AppTable  tr .RMB{margin-top:7px;*margin-top:-20px;}
 .wait td,.wait th{color:#aaa;}
 .AppTable tr td.Solid,.AppTable tr th.Solid{border-bottom:1px solid #6b6b6b;}
-/*.AppTable tr:nth-of-type(2n-1).Solid td:nth-child(3),.AppTable tr:nth-of-type(2n-1).Solid td:nth-child(4),.AppTable tr:nth-of-type(2n-1).Solid td:nth-child(5){border-bottom:1px dotted #6b6b6b;}*/
 .AppMakeBtn{height:40px;width:100%;position:absolute;right:-1px;left:-1px;top:0;background:#002463;}
 .print{display:block;width:70px;text-align: center;height:40px;line-height:40px;background:url("../img/mask3.png") repeat;}
 .print .Icon{vertical-align: middle;}

@@ -9,12 +9,6 @@ $(function(){
     },function(){
         $this.find('.MakeBtn').stop().animate({width:0},300);
     });
-//    home页唤出搜索框
-    var $ico_search = $('.ico-search');
-    var $new_search = $('.new_search');
-    $ico_search.click(function(){
-        $new_search.animate({top:40},300)
-    });
 //    二级菜单
     var $top_nav_a = $('.top_nav a');
     var $second_header = $('.second_header');
