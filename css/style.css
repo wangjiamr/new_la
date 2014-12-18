@@ -82,19 +82,19 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .card_box{width:810px;margin-left:90px;overflow: hidden;position: relative;}
 .card_box_in{position: absolute;left: 0;}
 .card_list{position: relative;width:810px;}
-.card_list li{width:260px;height:180px;float:left;margin:0 0 10px 10px;background:#fff;transition:0.5s;color:#333;overflow: hidden;position: relative;box-shadow: 0 0 10px #444;}
+.card_list li{width:192px;height:160px;float:left;margin:0 0 10px 10px;background:#fff;transition:0.5s;color:#333;overflow: hidden;position: relative;box-shadow: 0 0 10px #444;}
 .card_time{position: absolute;width:100%;left:0;bottom:0;height:7px;border-radius:0 0 5px 5px;color:#888;}
 .card_list li .card_time p{position: absolute;top:-20px;right:5px;padding-right:4px;font-style: italic;font-size:14px;}
 .card_list li .card_time p i{font-style: italic;}
-.card_in_main{margin:40px 0 10px 10px;color:#888;}
+.card_in_main{margin:22px 0 10px 10px;color:#888;}
 .card_in_main p{line-height:20px;position:relative;top:-5px;}
 .card_in_main p em{display:inline-block;width:auto;}
 .card_list li .UserImg,.card_list li .UserImg img,.Approval .UserImg,.Approval .UserImg img{width:30px;height:30px;}
-.card_list li .UserImg,.card_list li .UserImg img{width:60px;height:60px;}
-.card_list li .UserImg{margin-top:10px;border:2px solid #fff;}
-.card_title{height:90px;line-height:26px;padding:0 10px;color:#fff;font-size:16px;transition:0.5s;}
+.card_list li .UserImg,.card_list li .UserImg img{width:40px;height:40px;}
+.card_list li .UserImg{margin-top:20px;border:2px solid #fff;}
+.card_title{height:70px;line-height:26px;padding:0 10px;color:#fff;font-size:16px;transition:0.5s;}
 .card_title p.alignright{height:26px;}
-.card_txt{position:relative;top:20px;}
+.card_txt{position:relative;top:0;}
 .card_txt p{line-height:20px;color:#fff;opacity:0.9;}
 .card_list li .card_time p.txt_hidden{display: none;}
 .process_bar{height:7px;position:relative;width:100%;background:#ddd;}
@@ -120,9 +120,13 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .card_theme6 p i{color:#ec6941;}
 .card_theme6 span.process_bar_in{background:#ec6941;}
 
-.list_doing .card_list li .card_title{color:#fff;border-bottom:1px solid #ccc;}
+.list_doing .card_list li{width:260px;height:180px;}
+.list_doing .card_list li .card_title{height:90px;color:#fff;border-bottom:1px solid #ccc;}
+.list_doing .card_list li .UserImg,.list_doing .card_list li .UserImg img{width:60px;height:60px;}
+.list_doing .card_list li .UserImg{margin-top:10px;border:2px solid #fff;}
+.list_doing .card_txt{top:15px;}
+.list_doing .card_in_main{margin:30px 0 10px 10px;}
 .list_doing .card_list li p i{color:#e2953e;}
-/*.list_doing .card_list li span.process_bar_in{background:#e2953e;}*/
 .list_doing .card_list li.waiting .card_title,.list_doing .card_list li.waiting span.process_bar_in{background:#404040;}
 .list_doing .card_list li.waiting p i{color:#404040;}
 /*list*/
