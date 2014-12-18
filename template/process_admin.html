@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>new list</title>
+    <link rel="stylesheet" type="text/css" href="../css/global.css">
+    <link rel="stylesheet" type="text/css" href="../css/appstyle.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+<!--右侧滑出的表单详情 附件begin-->
+<div class="AppDetail_in">
+    <!--操作按钮begin-->
+    <div class="AppMakeBtn clearfix alignright">
+        <a href="javascript:;" class="Btn"><i class="Icon ico-edit2"></i>编辑流程</a>
+        <a href="javascript:;" class="Btn"><i class="Icon ico-clear"></i>清空流程</a>
+        <div class="Btn" style="width: auto;">强制管理
+            <span class="switch"><em></em></span>
+        </div>
+    </div>
+    <!--操作按钮over-->
+    <div class="AppDetailIn jscroll"  style="height:955px;">
+        <div class="AppDetailmain">
+
+        </div>
+    </div>
+</div>
+<!--右侧滑出的表单详情 附件over-->
+<link rel="stylesheet" type="text/css" href="../css/jscrollpane.css">
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/jquery.jscrollpane.min.js"></script>
+<script type="text/javascript" src="../js/jquery.mousewheel.js"></script>
+<script type="text/javascript">
+    $(function() {
+        function Jscroll(){
+            $('.jscroll').jScrollPane({
+                'mouseWheelSpeed':100,
+                "showArrows":false
+            });
+        }
+        Jscroll();
+    });
+</script>
+</body>
+</html>

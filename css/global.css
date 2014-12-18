@@ -153,7 +153,6 @@ a.add:hover{text-decoration: underline;}
 /*按钮*/
 .Btn{display:inline-block;color:#fff;height:24px;line-height:24px;padding:0 15px;border-radius:2px;}
 .AppDetail_in .AppMakeBtn .Btn{border:0;border-right:1px solid #2b2b2e;width:90px;height:40px;line-height:40px;text-align: center;font-size:14px;padding:0;border-radius:0;}
-/*.Btn:hover,.AppMakeBtn .Btn.current{background-color:#002059;border: 1px solid #2e5cac;height:29px;line-height: 29px;}*/
 .AppDetail_in .AppMakeBtn .Btn:hover,.AppDetail_in .AppMakeBtn .Btn.current,.Btn.current,.form_bottom .Btn{background:#347cdc;color: #fff;}
 .AppDetail_in .AppMakeBtn .btn-acc{width:45px;margin-left:-1px;border-left:1px solid #2b2b2e;}
 .AppDetail_in .AppMakeBtn .btn-acc .Icon{left:0;top:12px;}
@@ -307,6 +306,8 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .no .ico-arrow-l{background-position:-185px -216px;}
 .no .ico-arrow-r{background-position:-185px -232px;}
 .ico-emergency{width:22px;height:22px;background-position:-193px -165px;top:4px;}/*紧急*/
+.ico-edit2,.ico-clear{width:13px;height:13px;background-position:-100px -292px;margin:3px 4px 0 0;top:2px;}
+.ico-clear{width:13px;height:13px;background-position:-120px -292px;}
 /*表单图标背景和ico*/
 .bg{display: inline-block;width:48px;height:48px;text-align: center;line-height: 48px;position: relative;border-radius:50em;behavior: url(../css/PIE.htc);}
 .ico{width: 22px;height:22px;vertical-align: -6px;position:absolute;top: 50%;left:50%;margin:-11px 0 0 -11px;}
