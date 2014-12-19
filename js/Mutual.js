@@ -49,6 +49,27 @@ $(function(){
             $this.find('em').html('开');
         }
     });
+    //  流程管理滑动展示详细流程
+    $ProcessOut = $('.ProcessOut');
+    $ProcessOut.hover(function(){
+       var $this = $(this);
+       var width =0;
+       var P_width =$this.width();
+       $this.find('li').each(function(){
+            width = width + $(this).width();
+       });
+       var M_width =P_width-width;
+       if(M_width<0){
+           if(Math.abs(M_width)>200){
+                $this.find('.ProcessLi').stop().animate({marginLeft:M_width},4000);
+           }else{
+               $this.find('.ProcessLi').stop().animate({marginLeft:M_width},600);
+           }
+       }
+    },function(){
+        var $this = $(this);
+        $this.find('.ProcessLi').stop().animate({marginLeft:0},1500);
+    });
   });
 
 

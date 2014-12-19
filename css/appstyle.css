@@ -169,17 +169,7 @@
 .refresh,.CheckWord li.refresh:hover{border:1px solid #aaa;border-radius:3px;color: #888;background-color: #fff;}
 .contact .nodata{position: absolute;top:50%;left:50%;line-height: 20px;margin:-30px 0 0 -85px;padding-top: 0;color:#666;}
  .nodata a{color:#347cdc;padding:0 3px;}
-/*选择申请表单*/
-.form-list{width:998px;border-width:0 1px;}
-.formTop{height:49px;line-height: 49px;border-width:0 0 1px 0;padding: 0 10px;}
-.LeftNav{width:80px;border-width:0 1px 0 0;height: 100%;position: relative;}
-.LeftNav a,.LeftNav a em{display: block;}
-.RightM{width:917px;}
-.FormIco{padding: 10px 60px;}
-.FormIco li{float: left;width:159px;height:100px;padding-top:34px;border:1px dashed #ccc;border-width:0 0 1px 1px;margin:0 0 0 -1px;text-align: center;cursor: pointer;position: relative;overflow: hidden;}
-.FormIco li p{line-height:30px;}
-.FormIco li.borderL{border-left-color: #fff;}
-.FormIco li:hover{background-color:#edf5fe;}
+
 /*角色*/
 .UserList li{float:left;}
 .UserList li{border:1px dashed #ccc;border-width:0 1px 1px 0;}
@@ -194,18 +184,19 @@
 .FormIco li .R-btns{border:0;top:-1px;bottom:0;background:transparent;}
 .FormIco li .R-btns a{margin:4px 0 12px 0;}
 /*流程*/
-.process{border:1px solid #dbdbdb;margin-bottom:10px;}
+.process{border:1px solid #dbdbdb;margin-bottom:10px;padding-bottom: 10px;}
 .Title{height:30px;line-height:30px;padding-left:10px;background:#f0f0f0;border-bottom:1px solid #dbdbdb;}
 .Title .Icon{border-left:1px solid #dbdbdb}
-.Item{padding:10px;}
+.Item{padding:5px 10px;}
 .Item span.txt_hidden{width:100px;color:#888;}
 .Item .UserImg,.Item .UserImg img{width:32px;height:32px;vertical-align:middle;}
+.ProcessOut{width:670px;overflow: hidden;height:36px;margin-left:2px;}
+.ProcessLi{width:9999px;}
+.Item span{height:32px;line-height:32px;}
+.Item .inlineblock span{display:inline-block;line-height: normal;}
+.Item .inlineblock span.UserImg{top:5px;position: relative;}
+.ProcessLi li{display: inline-block;float: left;height:32px;line-height:32px;}
 
-
-.ProcessLi{display:inline-block;}
-.ProcessLi li{display: inline-block;float: left;}
-.Item tbody td div span{display: inline-block;line-height:35px;position: relative;cursor:pointer;}
-.Item tbody td div span .Icon{top:-2px;}
 .cond span .Icon{top:-1px;}
 .process-main .formTop{background-color:#fff;}
 .process-main .form-main{margin:0 auto;height:100%;}
