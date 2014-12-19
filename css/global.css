@@ -402,6 +402,12 @@ div.int_txt{border-width:0 0 1px 0;text-indent: 40px;min-height:30px;height:auto
 .list_doing .card_list li.color_8 p i{color:#a13e96;}
 .color_9,.color_9 .li_cover table tr th:hover,.color_9 .li_cover table tr td:hover,.color_9 .card_title,.color_9 span.process_bar_in{background-color:#c594d5;}
 .list_doing .card_list li.color_9 p i{color:#c594d5;}
+.color_10,.color_10 .card_title,.color_10 span.process_bar_in{background-color:#e69942;}
+.list_doing .card_list li.color_10 p i{color:#e69942;}
+.color_11,.color_11 .card_title,.color_11 span.process_bar_in{background-color:#4e78b0;}
+.list_doing .card_list li.color_11 p i{color:#4e78b0;}
+
+
 @-webkit-keyframes fadeInLeft {
     0% {
         opacity: 0;
