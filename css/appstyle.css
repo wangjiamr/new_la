@@ -194,26 +194,15 @@
 .FormIco li .R-btns{border:0;top:-1px;bottom:0;background:transparent;}
 .FormIco li .R-btns a{margin:4px 0 12px 0;}
 /*流程*/
-.process{border-bottom:1px solid #aaa;}
-.process .mart20{margin-left:12px;}
-.Title{height:15px;padding:5px 0 10px 0;}
-.Title span.floatleft{border-left-width:3px;border-left-style:solid;height:16px;line-height:14px;padding-left:8px;position:relative;top:-2px;}
-.process .Title{background: url("../img/title_bg.jpg") 0 bottom repeat-x;}
-.Item{width:100%;}
-.Item thead th{height:40px;line-height: 40px;padding-left:20px;}
+.process{border:1px solid #dbdbdb;margin-bottom:10px;}
+.Title{height:30px;line-height:30px;padding-left:10px;background:#f0f0f0;border-bottom:1px solid #dbdbdb;}
+.Title .Icon{border-left:1px solid #dbdbdb}
+.Item{padding:10px;}
 .Item span.txt_hidden{width:100px;color:#888;}
-.Item tbody td{border-bottom:12px solid #fff;height:36px;}
-.Item tbody td div{height:36px;line-height:36px;border:1px solid #ddd;border-right-width:0;overflow:hidden;padding-left:9px;}
-.Item.Item_title tbody td div,.Item.Item_title tbody td{height:25px;line-height:25px;}
-.Item tbody td div.first{border-radius:3px 0 0 3px;padding:0 20px;width:518px;}
-.Item tbody td div.last{border-right-width:1px;border-radius:0 3px 3px 0;position: relative;}
-.Item tbody tr:hover td div.mid,.Item tbody tr:hover td div.last{border-left-color:#347cdc;}
-.Item tbody tr:hover td div{border-color:#347cdc;}
-.Item tbody tr:hover span.txt_hidden{color:#347cdc;}
-.Item tbody td div.Btn_item{position: absolute;top:-1px;height:38px;right:-100px;background:#347cdc;padding:0 10px;overflow: hidden;}
-.Item tbody td div.Btn_item a{display:inline-block;height:38px;padding:0 10px;padding-top:23px;top:-12px;position: relative;}
-.Item tbody td div.Btn_item a:hover{background:#24579a;}
-.ProcessLi{display:block;height:100%;width:999px;}
+.Item .UserImg,.Item .UserImg img{width:32px;height:32px;vertical-align:middle;}
+
+
+.ProcessLi{display:inline-block;}
 .ProcessLi li{display: inline-block;float: left;}
 .Item tbody td div span{display: inline-block;line-height:35px;position: relative;cursor:pointer;}
 .Item tbody td div span .Icon{top:-2px;}

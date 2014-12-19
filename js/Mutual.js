@@ -37,6 +37,18 @@ $(function(){
             opacity:0
         },300);
     });
+//    switch开关
+    var $switch = $('.switch');
+    $switch.click(function(){
+        var $this = $(this);
+        if($this.hasClass('on')){
+            $this.removeClass('on');
+            $this.find('em').html('关');
+        }else{
+            $this.addClass('on');
+            $this.find('em').html('开');
+        }
+    });
   });
 
 

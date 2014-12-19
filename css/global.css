@@ -129,6 +129,7 @@ a.add:hover{text-decoration: underline;}
 .font30{font-size:30px!important;}
 .l_th{text-decoration:line-through!important;}
 .txt_hidden,.ser_Results li,.UserName,.prompt_main p{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;display:inline-block;}
+
 /*clear*/
 .clear{clear:both;line-height:0;height:0;font-size:0;}
 .clearfix{zoom:1;}
@@ -257,9 +258,8 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .current .ico-Other{background-position:-17px -266px;}/*其他类*/
 .current .ico-Stop{background-position:-17px -283px;}/*停用的*/
 .current .ico-Per{background-position:-34px -249px;}/*人力类*/
-.LeftNav .ico-arrow{width:10px;height:16px;position: absolute;background-position: -35px -160px;z-index: 20;right:-10px;}
-.ico-set{background-position: -94px -58px;}
-.ico-set:hover{background-position: -155px -30px;}
+.ico-set,.ico-remove{width:30px;height:30px;background-position: -100px -305px;}
+.ico-remove{background-position: -100px -335px;}
 .ico-up,.ico-down2{width:12px;height:11px;background-position:-155px -180px;}
 .ico-down2{background-position:-155px -198px;}
 .ico-down3,.ico-look{width:50px;height:50px;background-position:-160px -378px;}
@@ -308,6 +308,8 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .ico-emergency{width:22px;height:22px;background-position:-193px -165px;top:4px;}/*紧急*/
 .ico-edit2,.ico-clear{width:13px;height:13px;background-position:-100px -292px;margin:3px 4px 0 0;top:2px;}
 .ico-clear{width:13px;height:13px;background-position:-120px -292px;}
+.ico-user,.ico-user2{width:14px;height:13px;background-position:-52px -232px;margin-right:5px;top:2px;}
+.ico-user2{background-position:-52px -249px;}
 /*表单图标背景和ico*/
 .bg{display: inline-block;width:48px;height:48px;text-align: center;line-height: 48px;position: relative;border-radius:50em;behavior: url(../css/PIE.htc);}
 .ico{width: 22px;height:22px;vertical-align: -6px;position:absolute;top: 50%;left:50%;margin:-11px 0 0 -11px;}
@@ -378,13 +380,6 @@ div.int_txt{border-width:0 0 1px 0;text-indent: 40px;min-height:30px;height:auto
 .UserList li:hover .int{border-color:#ccc;transition:0.5s;text-indent:5px;}
 .UserList li:hover .int:focus{border-color:#aaa;}
 .bg-waring{background:#e9505f!important;}
-/*色球*/
-.color_mark em{font-size:14px;}
-.color_mark .Icon{width:14px;height:14px;border-radius:50%;behavior: url(../css/PIE.htc);background:none;vertical-align: -2px;margin-right:5px;}
-.color_1.Icon{background-color:#bbb;}
-.color_2.Icon{background-color:#8fc31f;}
-.color_2{color:#8fc31f;}
-.color_1{color:#bbb;}
 
 .color_0,.color_0 .li_cover table tr th:hover,.color_0 .li_cover table tr td:hover,.color_0 .card_title,.color_0 span.process_bar_in{background-color:#ffa700;}
 .list_doing .card_list li.color_0 p i{color:#ffa700;}
