@@ -102,7 +102,7 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .card_list li .UserImg,.card_list li .UserImg img,.Approval .UserImg,.Approval .UserImg img{width:30px;height:30px;}
 .card_list li .UserImg,.card_list li .UserImg img{width:50px;height:50px;}
 .card_list li .UserImg{margin-top:10px;border:2px solid #fff;}
-.card_title{height:90px;line-height:26px;padding:0 10px;color:#fff;font-size:14px;transition:0.5s;background-image:url("../img/li_mask.png");background-position:0 0;background-repeat: no-repeat;position: relative;}
+.card_title{height:90px;line-height:26px;padding:0 10px;color:#fff;font-size:14px;transition:0.5s;background-image:url("../img/li_mask.png");background-position:0 0;background-repeat: no-repeat;position: relative;top:-120px;}
 .card_title p.alignright{height:26px;padding-top:3px;font-family:"黑体";}
 .card_txt{position:relative;top:0;padding-top:20px;}
 .card_txt p{line-height:20px;color:#fff;opacity:0.6;}
