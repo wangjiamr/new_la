@@ -70,6 +70,14 @@ $(function(){
         var $this = $(this);
         $this.find('.ProcessLi').stop().animate({marginLeft:0},1500);
     });
+    //  角色列表滑过出操作按钮
+    $('.UserList li').hover(function(){
+        var $this = $(this);
+        $this.find('.R-btns').stop().animate({right:0},200);
+    },function(){
+        var $this = $(this);
+        $this.find('.R-btns').stop().animate({right:-40},200);
+    });
   });
 
 
