@@ -5,7 +5,7 @@ $(function(){
 //    列表滑过显示操作按钮图标
     $('.list_table tr').hover(function(){
         $this = $(this);
-        $this.find('.MakeBtn').stop().animate({width:84},200);
+        $this.find('.MakeBtn').stop().animate({width:40},200);
     },function(){
         $this.find('.MakeBtn').stop().animate({width:0},300);
     });
