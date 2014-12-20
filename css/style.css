@@ -1,6 +1,6 @@
 ﻿.layout{width:100%;height:100%;position: relative;overflow:hidden;z-index:10;min-width:1024px;}
 /*.layout a{color:#fff;}*/
-.top_header{width:100%;height:40px;background-color:#242427;position: fixed;top:0;left:0;color: #d7d7d7;z-index:20;min-width:1024px;}
+.top_header,.admin_header{width:100%;height:40px;background-color:#242427;position: fixed;top:0;left:0;color: #d7d7d7;z-index:20;min-width:1024px;}
 .top_header .company_logo,.top_header .company_logo img{height:40px;}
 .top_header .company_logo{vertical-align: inherit;}
 .top_header .company_name{height:40px;line-height:40px;vertical-align: top;}
