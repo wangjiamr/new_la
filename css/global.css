@@ -173,7 +173,7 @@ a.add:hover{text-decoration: underline;}
 .now_buy:hover{background-position:0 -592px;}
 
 /*background-color and border-color*/
-.bg-347cdc,.pagenation a.current,.btn-make:hover,.Btn-normal:hover,.CheckWord li:hover,.CheckWord li.current{background-color:#347cdc;}
+.bg-347cdc,.pagenation a.current,.btn-make:hover,.Btn-normal:hover,.CheckWord li:hover,.CheckWord li.current{background-color:#347cdc!important;}
 .ListMain .ListTitle:hover{background-color: #f3f3f3;}
 .border-33619f{border-color:#33619f;}
 .search,.text{border-color:#aaa;}
@@ -233,6 +233,7 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .ico-share{background-position: -128px -214px;}
 .ico-delete{width: 7px;height:7px;background-position: -71px -128px;}
 .ico-refresh{width:12px;height:10px;background-position: -131px -50px;}
+.R-btns .ico-refresh{width:12px;height:12px;background-position: -177px -249px;}
 .ico-delete{width:10px;height:10px;background-position: -132px -60px;}/*此处待定哦*/
 .ico-delete4{width:16px;height:16px;background-position: -131px -105px;}/*此处待定哦*/
 .ico-cut{width:15px;height:15px;background-position:-131px -165px;}
@@ -377,9 +378,9 @@ textarea.int{min-height:60px;line-height:20px;color:#888;}
 div.int_txt{border-width:0 0 1px 0;text-indent: 40px;min-height:30px;height:auto;line-height:18px;overflow-y: visible;}
 .textarea span{position: absolute;right:2px;bottom:2px;background:#fff;padding:3px;color:#666;}
 .textarea span em{font-family: Constantia, Georgia;font-size:18px;padding:0 3px;color:#347cdc;}
-.UserList .int{height:20px;line-height: 20px;border-color:#fff;transition:0.5s;font-size:15px;text-indent: 0;color: #444;}
-.UserList li:hover .int{border-color:#ccc;transition:0.5s;text-indent:5px;}
-.UserList li:hover .int:focus{border-color:#aaa;}
+.UserList .int{width:188px;height:24px;line-height: 24px;border:1px solid transparent;font-size:15px;text-indent: 0;color: #444;background:none;transition:0.3s;}
+.UserList li:hover .int{text-indent:5px;border:1px solid #347cdc;transition:0.3s;}
+.UserList li:hover .int:focus{border-color:#347cdc;}
 .bg-waring{background:#e9505f!important;}
 
 .color_0,.color_0 .li_cover table tr th:hover,.color_0 .li_cover table tr td:hover,.color_0 .card_title,.color_0 span.process_bar_in{background-color:#ffa700;}

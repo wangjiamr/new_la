@@ -62,13 +62,7 @@
 .AppList{width: 780px;}
 .ListTitle{margin-top: 20px;}
 .ListTitle span{display: inline-block;line-height:30px;height:30px;cursor: pointer;border:1px solid #fff;padding-left:20px;float:left;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
-.Li_span1{width:110px;}
-.Li_span2{width:100px;}
-.Li_span3{width:99px;}
-.Li_span4{width:200px;}
-.Li_span5{width:75px;}
-.Li_span6{width:68px;}
-.ListMain,.UserList{min-height:500px;}
+.ListMain{min-height:500px;}
 .ListMain .ListTitle{border-radius:0.4em;border-style:solid;border-width:1px;border-right-width:0;height:36px;position:relative;margin-top:12px;}
 .ListMain .ListTitle span{border-width:0 1px 0 0;border-right-style: solid;height:36px;line-height:36px;}
 .ListMain .ListTitle span:last-child{float:right;}
@@ -169,18 +163,16 @@
  .nodata a{color:#347cdc;padding:0 3px;}
 
 /*角色*/
-.UserList li{float:left;}
-.UserList li{border:1px dashed #ccc;border-width:0 1px 1px 0;}
-.UserList li div.clearfix{width:389px;height:45px;padding:27px 0;position: relative;overflow: hidden;}
+.UserList li{float:left;width:300px;height:80px;background:#fff;margin:5px;color: #333;}
+.UserList li div.clearfix{width:300px;height:65px;padding-top:15px;position: relative;overflow: hidden;}
 .UserList li div.clearfix .UserImg,.UserList li div.clearfix .UserImg img{width:50px;height:50px;}
-.UserList li div.clearfix .UserImg{margin:0 15px 0 30px;}
+.UserList li div.clearfix .UserImg{margin:0 15px 0 10px;}
 .UserList li div.clearfix p{line-height:25px;}
 .UserList li div.clearfix p span{padding-right: 5px;}
-.UserList li:nth-child(2n){border-right:0;}
-.R-btns{position:absolute;border-left:1px solid #9abee5;top:10px;bottom:10px;right:-35px;padding:0 5px 0 10px;z-index:20;background-color: #fff;}
-.R-btns a{width:15px;height:15px;display:block;margin-top:15px;}
-.FormIco li .R-btns{border:0;top:-1px;bottom:0;background:transparent;}
-.FormIco li .R-btns a{margin:4px 0 12px 0;}
+.UserList li.current{background: #fdf9d4;}
+.R-btns{position:absolute;top:0;bottom:0;right:-40px;z-index:2;background-color: #fff;}
+.R-btns a{width:40px;height:30px;padding-top:10px;display:block;background:#e9505f;text-align: center;}
+.R-btns a.bg-347cdc{padding-top:12px;height:28px;}
 /*流程*/
 .process{border:1px solid #dbdbdb;margin-bottom:10px;padding-bottom: 10px;}
 .Title{height:30px;line-height:30px;padding-left:10px;background:#f0f0f0;border-bottom:1px solid #dbdbdb;}
