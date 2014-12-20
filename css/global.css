@@ -72,7 +72,7 @@ a:hover,.news-list li a:hover{text-decoration:none;}
 .color-6,.color-6 a{color:#666;}
 .color-8,.color-8 a{color:#888;}
 .color-a{color:#aaa;}
-.color-347cdc,.ser_Results li em,.add,.item_box span:hover{color:#347cdc;}
+.color-347cdc,.ser_Results li em,.add,.item_box span:hover{color:#347cdc!important;}
 .nodata{color:#ccc;padding-top: 100px;}
 a.add:hover{text-decoration: underline;}
 .color-info{color:#e60012;}
@@ -217,11 +217,10 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .item_box .ico-select .ico-upd{vertical-align:-16px;}
 .ico-turn,.ico-print,.ico-croose,.ico-carried{width:25px;height:25px;}
 .ico-turn{background-position:-66px -40px;}
-.ico-print{background-position:-66px -67px;}
+.ico-print{width:16px;height:14px;background-position:-199px -122px;top:3px;}
 .ico-croose{background-position:-66px -93px;}
 .ico-carried{background-position:-94px -136px;}
 .ico-urgent{width:18px;height:18px;background-position:-80px 0;}
-.ListTitle .ico-urgent{position:absolute;left:-28px;top:9px;}
 .ico-print2{width:30px;height:30px;background-position:0 -160px;vertical-align:-11px;}
 .ico-cross,.ico-veto,.ico-turn2,.ico-invite,.ico-notice,.ico-done,.ico-share{width:23px;height:19px;vertical-align: -4px;background-position: -48px -160px;position: relative;left: -6px;}
 .ico-cross{width:14px;height:11px;background-position: -155px -318px;vertical-align: -1px;}
@@ -312,6 +311,7 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .ico-clear{width:13px;height:13px;background-position:-120px -292px;}
 .ico-user,.ico-user2{width:14px;height:13px;background-position:-52px -232px;margin-right:5px;top:2px;}
 .ico-user2{background-position:-52px -249px;}
+.ico-ok{width:26px;height:26px;background-position:-44px -266px;margin-left:3px;}
 /*表单图标背景和ico*/
 .bg{display: inline-block;width:48px;height:48px;text-align: center;line-height: 48px;position: relative;border-radius:50em;behavior: url(../css/PIE.htc);}
 .ico{width: 22px;height:22px;vertical-align: -6px;position:absolute;top: 50%;left:50%;margin:-11px 0 0 -11px;}
@@ -378,9 +378,14 @@ textarea.int{min-height:60px;line-height:20px;color:#888;}
 div.int_txt{border-width:0 0 1px 0;text-indent: 40px;min-height:30px;height:auto;line-height:18px;overflow-y: visible;}
 .textarea span{position: absolute;right:2px;bottom:2px;background:#fff;padding:3px;color:#666;}
 .textarea span em{font-family: Constantia, Georgia;font-size:18px;padding:0 3px;color:#347cdc;}
-.UserList .int{width:188px;height:24px;line-height: 24px;border:1px solid transparent;font-size:15px;text-indent: 0;color: #444;background:none;transition:0.3s;}
+.user_out{width:1000px;margin: 0 auto;position: relative;overflow-y: hidden;}
+.user_out .r_btn{right:0;}
+.UserList{width:930px;position: absolute;left:25px;}
+.UserList .int{width:188px;height:24px;line-height:normal;font-size:12px;border:1px solid #347cdc;text-indent: 0;color: #444;background:none;transition:0.3s;float: left;}
 .UserList li:hover .int{text-indent:5px;border:1px solid #347cdc;transition:0.3s;}
-.UserList li:hover .int:focus{border-color:#347cdc;}
+.UserList li:hover .int:focus{border-color:#347cdc;transition:0.3s;box-shadow: 0 0 3px #347cdc;}
+.UserList li div.clearfix  p.font14{height:26px;margin-bottom:3px;}
+.UserList li .int.set_user{border-color:#ccc;}
 .bg-waring{background:#e9505f!important;}
 
 .color_0,.color_0 .li_cover table tr th:hover,.color_0 .li_cover table tr td:hover,.color_0 .card_title,.color_0 span.process_bar_in{background-color:#ffa700;}
