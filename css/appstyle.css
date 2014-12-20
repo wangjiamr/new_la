@@ -169,11 +169,10 @@
 .UserList li div.clearfix .UserImg{margin:0 15px 0 10px;}
 .UserList li div.clearfix p{line-height:25px;}
 .UserList li div.clearfix p span{padding-right: 5px;}
-.UserList li:hover{background: #fdf9d4;}
-.R-btns{position:absolute;top:0;bottom:0;right:0px;z-index:2;background-color: #fff;}
+.UserList li.current{background: #fdf9d4;}
+.R-btns{position:absolute;top:0;bottom:0;right:-40px;z-index:2;background-color: #fff;}
 .R-btns a{width:40px;height:30px;padding-top:10px;display:block;background:#e9505f;text-align: center;}
-.FormIco li .R-btns{border:0;top:-1px;bottom:0;background:transparent;}
-.FormIco li .R-btns a{margin:4px 0 12px 0;}
+.R-btns a.bg-347cdc{padding-top:12px;height:28px;}
 /*流程*/
 .process{border:1px solid #dbdbdb;margin-bottom:10px;padding-bottom: 10px;}
 .Title{height:30px;line-height:30px;padding-left:10px;background:#f0f0f0;border-bottom:1px solid #dbdbdb;}
