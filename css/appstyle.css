@@ -366,11 +366,12 @@
 .go_mid{top:10%;transition:0.4s;-webkit-transition:0.4s;}
 .go_down{top:150%;transition:0.8s;-webkit-transition:0.8s;}
 /*订购信息*/
-.order_main{background: #fff;width:460px;height:530px;border-radius:4px;box-shadow:0 0 10px #333;position: absolute;left:50%;top:50%;margin:-265px 0 0 -230px;z-index:20;}
+.order_main{background: #fff;width:460px;min-height:460px;border-radius:4px;box-shadow:0 0 10px #333;position: absolute;left:50%;top:50%;margin:-265px 0 0 -230px;z-index:20;}
 .order_item{padding:30px 40px;border-bottom: 1px solid #ddd;}
 .order_item table{width:100%;}
-.order_item table td{color:#888;line-height:24px;}
-
+.order_item table td{color:#333;line-height:24px;}
+.order_item table th{color:#888;text-align: center;padding-right:10px;}
+.order_item table.font14 td{font-size:14px;line-height:30px;}
 /*400 500*/
 .error_box{width:650px;height:420px;position: absolute;top:50%;left:50%;margin:-250px 0 0 -325px;}
 .error_box a{font-size:20px;color:#666;display: inline-block;margin:0 20px;}
