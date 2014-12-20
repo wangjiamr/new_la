@@ -26,18 +26,18 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9369">
+            <state line="282" column="0" selection-start="19737" selection-end="19737" vertical-scroll-proportion="0.0" vertical-offset="7307" max-vertical-offset="9261">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="order_info.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="order_info.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/template/order_info.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="22" selection-start="3022" selection-end="3037" vertical-scroll-proportion="-13.0" vertical-offset="1123" max-vertical-offset="5778">
+            <state line="43" column="0" selection-start="1813" selection-end="1813" vertical-scroll-proportion="0.045353983" vertical-offset="1120" max-vertical-offset="5805">
               <folding>
-                <element signature="tag#div#1;tag#div#3;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#2;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -59,12 +59,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="角色管理.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="角色管理.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template/角色管理.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="41" selection-start="2642" selection-end="2642" vertical-scroll-proportion="0.58960176" vertical-offset="1060" max-vertical-offset="3726">
+            <state line="59" column="0" selection-start="2601" selection-end="2641" vertical-scroll-proportion="-16.53125" vertical-offset="929" max-vertical-offset="2295">
               <folding>
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="tag#div#3;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#5;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="tag#li#0;tag#ul#0;tag#div#0;tag#div#5;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="n#style#0;n#p#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -99,9 +102,9 @@
       <file leaf-file-name="appstyle.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/appstyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="373" column="57" selection-start="25380" selection-end="25380" vertical-scroll-proportion="0.0" vertical-offset="9651" max-vertical-offset="12123">
+            <state line="368" column="54" selection-start="24990" selection-end="24990" vertical-scroll-proportion="0.0" vertical-offset="9624" max-vertical-offset="12123">
               <folding>
-                <marker date="1419061422908" expanded="true" signature="8805:8827" placeholder="{...}" />
+                <marker date="1419062013441" expanded="true" signature="8805:8827" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -154,12 +157,12 @@
         <option value="$PROJECT_DIR$/js/Mutual.js" />
         <option value="$PROJECT_DIR$/template/n_list.html" />
         <option value="$PROJECT_DIR$/css/global.css" />
-        <option value="$PROJECT_DIR$/template/order_info.html" />
-        <option value="$PROJECT_DIR$/css/appstyle.css" />
         <option value="$PROJECT_DIR$/template/creat_form.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/template/流程管理step1.html" />
         <option value="$PROJECT_DIR$/template/角色管理.html" />
+        <option value="$PROJECT_DIR$/css/appstyle.css" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/template/order_info.html" />
       </list>
     </option>
   </component>
@@ -730,26 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/order_info.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="22" selection-start="3022" selection-end="3037" vertical-scroll-proportion="-13.0" vertical-offset="1123" max-vertical-offset="5778">
-          <folding>
-            <element signature="tag#div#1;tag#div#3;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/appstyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="373" column="57" selection-start="25380" selection-end="25380" vertical-scroll-proportion="0.0" vertical-offset="9651" max-vertical-offset="12123">
-          <folding>
-            <marker date="1419061422908" expanded="true" signature="8805:8827" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template/creat_form.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="50" column="32" selection-start="2195" selection-end="2207" vertical-scroll-proportion="-16.59375" vertical-offset="171" max-vertical-offset="1674">
@@ -759,13 +742,6 @@
             <element signature="tag#div#3;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9369">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -783,9 +759,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/template/角色管理.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="41" selection-start="2642" selection-end="2642" vertical-scroll-proportion="0.58960176" vertical-offset="1060" max-vertical-offset="3726">
+        <state line="59" column="0" selection-start="2601" selection-end="2641" vertical-scroll-proportion="-16.53125" vertical-offset="929" max-vertical-offset="2295">
           <folding>
             <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#div#3;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#5;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="tag#li#0;tag#ul#0;tag#div#0;tag#div#5;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#p#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -803,6 +782,33 @@
             <element signature="tag#li#10;tag#ul#0;tag#div#0;tag#div#5;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#li#11;tag#ul#0;tag#div#0;tag#div#5;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#li#12;tag#ul#0;tag#div#0;tag#div#5;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/appstyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="368" column="54" selection-start="24990" selection-end="24990" vertical-scroll-proportion="0.0" vertical-offset="9624" max-vertical-offset="12123">
+          <folding>
+            <marker date="1419062013441" expanded="true" signature="8805:8827" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="282" column="0" selection-start="19737" selection-end="19737" vertical-scroll-proportion="0.0" vertical-offset="7307" max-vertical-offset="9261">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/order_info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="0" selection-start="1813" selection-end="1813" vertical-scroll-proportion="0.045353983" vertical-offset="1120" max-vertical-offset="5805">
+          <folding>
+            <element signature="tag#div#2;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

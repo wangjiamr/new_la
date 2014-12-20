@@ -280,10 +280,6 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 .Re_item ul li:hover{background:#071313;}
 .Re_item ul li a{display:block;padding-left:30px;color:#fff;height:30px;line-height:30px;}
 /*订购信息*/
-.order_info{position: absolute;top:40px;right:20px;width:330px;min-height:140px;padding:10px 0;background: url("../img/mask50.png") repeat;color: #fff;z-index: 10;}
-.order_info p{line-height:20px;opacity: 0.6;padding:0 10px;}
-.order_info p.font14{opacity: 1;}
-.order_info p em{padding:0 5px;}
 .order_ino_btn{display:block;width:68px;height:22px;line-height: 22px;text-align: center;color:#69a2ed;border:1px solid #2864b3;border-radius:4px;position: absolute;top:10px;right:15px;}
 .order_bt{border-top:1px solid #2f2f2f;padding:15px 0 10px 0;}
 .order_bt a{display: inline-block;color:#fff;border-radius:3px;background-color: #4daa5c;height:40px;line-height:40px;padding:0 30px;}
