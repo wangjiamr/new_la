@@ -194,7 +194,7 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .form_list li a{display: block;padding-top:33px;color:#fff;}
 .form_list li a img{margin-bottom:15px;transition: all .3s ease-in-out;}
 .form_list li:hover a img{transform: scale(1.1);}
-.list_doing .form_box .card_out{width:910px;background:url("../img/mask40.png") repeat;margin: 0 auto;padding-bottom:10px;}
+.list_doing .form_box .card_out{width:910px;background:url("../img/mask50.png") repeat;margin: 0 auto;padding-bottom:10px;}
 .list_doing .form_box .card_box_in{width:910px;left:50%;margin-left:-455px;}
 .list_doing .form_box .card_box{width:100%;margin: 0;}
 .form_box .r_btn{right:-5px;bottom:0;}
@@ -207,6 +207,10 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .form_list .li_cover table a{display: block;height:70px;opacity: 0.4;padding:0;}
 .form_list .li_cover table a .Icon{width:20px;height:20px;margin:14px 0 8px 0;}
 .form_list li:hover .li_cover,.form_list .li_cover table a:hover{display: block;opacity:1;transition:0.3s;}
+.btn_start:hover{background:#2aba48;}
+.btn_edit:hover{background:#347cdc;}
+.btn_stop:hover{background:#f38c12;}
+.btn_delete:hover{background:#ed2828;}
 /*附件*/
 .Annex_list li{display:block;width:100%;height:50px;position: relative;overflow: hidden;border-bottom: 1px solid #242427;}
 .an_logo{padding:9px;width:32px;height:32px;background: url("../img/fu_file.gif") no-repeat center center;}
