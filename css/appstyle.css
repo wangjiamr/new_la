@@ -81,6 +81,11 @@
 .AppTable  tr .RMB{margin-top:7px;*margin-top:-20px;}
 .wait td,.wait th{color:#aaa;}
 .AppTable tr td.Solid,.AppTable tr th.Solid{border-bottom:1px solid #6b6b6b;}
+.firstable{margin-top:-1px;}
+.firstable th{width:100px;}
+
+
+
 .AppMakeBtn{height:40px;width:100%;position:absolute;right:-1px;left:-1px;top:0;background:#002463;}
 .print{display:block;width:70px;text-align: center;height:40px;line-height:40px;background:url("../img/mask3.png") repeat;}
 .print .Icon{vertical-align: middle;}
