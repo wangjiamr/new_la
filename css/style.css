@@ -286,7 +286,7 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 .order_bt{border-top:1px solid #2f2f2f;padding:15px 0 10px 0;}
 .order_bt a{display: inline-block;color:#fff;border-radius:3px;background-color: #4daa5c;height:40px;line-height:40px;padding:0 30px;}
 /*换壁纸*/
-.Wallpaper_box,.back_md{width:308px;background: url("../img/mask50.png") repeat;position: absolute;top:40px;right:2px;padding-bottom:2px;z-index: 2;}
+.Wallpaper_box,.back_md{width:308px;background: url("../img/mask50.png") repeat;position: absolute;top:40px;right:2px;padding-bottom:2px;z-index: 110;}
 .Wallpaper_box li{float:left;width:100px;height:100px;overflow:hidden;margin:2px 0 0 2px;cursor: pointer;transition:0.3;}
 .Wallpaper_box li:hover{width:96px;height:96px;border:2px solid #68a6f9;transition:0.3;}
 .Wallpaper_box li img{width:auto;height:100px;}
