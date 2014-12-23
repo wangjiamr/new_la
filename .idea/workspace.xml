@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="114" column="113" selection-start="8204" selection-end="8286" vertical-scroll-proportion="106.84" vertical-offset="5749" max-vertical-offset="10827">
+            <state line="114" column="113" selection-start="8204" selection-end="8286" vertical-scroll-proportion="0.36302894" vertical-offset="2752" max-vertical-offset="10827">
               <folding />
             </state>
           </provider>
@@ -50,7 +50,7 @@
       <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="132" column="66" selection-start="6045" selection-end="6052" vertical-scroll-proportion="-10.96875" vertical-offset="1404" max-vertical-offset="10746">
+            <state line="132" column="66" selection-start="6045" selection-end="6052" vertical-scroll-proportion="-9.40625" vertical-offset="1454" max-vertical-offset="10746">
               <folding>
                 <element signature="tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -89,10 +89,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="global.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="global.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/global.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="558" column="1" selection-start="27346" selection-end="28205" vertical-scroll-proportion="2.3886414" vertical-offset="12921" max-vertical-offset="15444">
+            <state line="342" column="47" selection-start="19453" selection-end="19453" vertical-scroll-proportion="-72.84" vertical-offset="7413" max-vertical-offset="15444">
               <folding />
             </state>
           </provider>
@@ -757,9 +757,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="342" column="47" selection-start="19453" selection-end="19453" vertical-scroll-proportion="-72.84" vertical-offset="7413" max-vertical-offset="15444">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/template/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="66" selection-start="6045" selection-end="6052" vertical-scroll-proportion="-10.96875" vertical-offset="1404" max-vertical-offset="10746">
+        <state line="132" column="66" selection-start="6045" selection-end="6052" vertical-scroll-proportion="-9.40625" vertical-offset="1454" max-vertical-offset="10746">
           <folding>
             <element signature="tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -786,14 +793,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="113" selection-start="8204" selection-end="8286" vertical-scroll-proportion="106.84" vertical-offset="5749" max-vertical-offset="10827">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="558" column="1" selection-start="27346" selection-end="28205" vertical-scroll-proportion="2.3886414" vertical-offset="12921" max-vertical-offset="15444">
+        <state line="114" column="113" selection-start="8204" selection-end="8286" vertical-scroll-proportion="0.36302894" vertical-offset="2752" max-vertical-offset="10827">
           <folding />
         </state>
       </provider>
