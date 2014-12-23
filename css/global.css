@@ -322,7 +322,7 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .ico-6{background-position:-109px -110px;}
 .ico-7{background-position:-109px -132px;}
 /*弹出*/
-.loading{position:absolute;width:50px;height:50px;top:50%;left:50%;margin:-25px 0 0 -25px;}
+.loading{position:absolute;width:50px;height:50px;top:50%;left:50%;margin:-25px 0 0 -25px;z-index:2;}
 .loading img{width:100%;-webkit-animation:spin 650ms infinite linear;animation:spin 650ms infinite linear;}
 .mask{width: 100%;height: 100%;position: fixed;top:0;left:0;z-index:100;}
 .sending{width:220px;height:170px;margin:-85px 0 0 -110px;background: url("../img/mask70.png") repeat;}
