@@ -42,6 +42,11 @@ $(function(){
         }else{
             $('body').removeClass('mini');
         }
+        if(winW>1040 && winW <= 1400){
+            $('body').addClass('middle');
+        }else{
+            $('body').removeClass('middle');
+        }
      }
     resizeimg();
     $(window).resize(function(){
