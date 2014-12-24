@@ -155,7 +155,7 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .list_table tbody td{border-bottom:1px solid #c7c7c7;background:#fff;color:#444;}
 .list_table tbody tr:last-child td{border-bottom:0;}
 .list_table tbody tr:hover td,.list_table tbody tr.current td{background:#f2f2f2;}
-.list_table tbody div.inner_td{height:40px;line-height:40px;padding-left:20px;position: relative;}
+.list_table tbody div.inner_td{height:40px;line-height:40px;padding-left:20px;position: relative;overflow: hidden;}
 .list_table tbody div.inner_td .UserImg,.Approval .UserImg{vertical-align:-10px;margin-right:5px;}
 .Approval .UserImg{background:url("../img/ico.png") -195px -60px;cursor: pointer;}
 .Approval table.Approval_turn{width:100%;margin:10px 0;height:auto;}
