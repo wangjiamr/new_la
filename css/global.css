@@ -283,7 +283,7 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .ico-Stop2{background-position:-155px -135px;}
 .ico-Stop2:hover{background-position:-155px -165px;}
 .ico-arrow2{width:11px;height:11px;background-position:-98px -164px;margin:0 8px 0 12px;top:1px;}
-.ico-check,.ico-lock{width:16px;height:16px;background-position: -94px -198px;cursor: pointer;vertical-align:-10px;margin-right:0;}
+.ico-check,.ico-lock{width:16px;height:16px;background-position: -94px -198px;cursor: pointer;vertical-align:-3px;margin-right:0;}
 .checked .ico-check{background-position: -94px -214px;}
 .check{cursor: pointer;}
 .check .ico-check{background-position: -111px -198px;}
@@ -292,10 +292,10 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .account_tab .check.checked .ico-check{background-position: -170px -198px;}
 .ico-lock,.ico-unlock{width:16px;height:16px;background-position: -131px -16px;margin-left:3px;}
 .ico-unlock{background-position: -131px 0;top:6px;}
-.ico-down{width:24px;height:18px;background-position:-131px -32px;right:-6px;}
+.ico-down{width:16px;height:14px;background-position:-100px -372px;top:3px;}
 .ico-p-add,.ico-p-minus{width:15px;height:15px;background-position: -155px -60px;}
 .ico-p-minus{background-position: -155px -75px;}
-.ico-arrow-top{width:17px;height:12px;background-position: -131px -75px;padding:0;}
+.ico-arrow-top{width:17px;height:12px;background-position:-131px -75px;padding:0;}
 .form-mini-bt .ico-arrow-top{background-position: -131px -92px;}
 .ico-clander{width:12px;height:11px;background-position:-131px -135px;position: absolute;right:3px;top:10px;z-index:10;}
 .ico-clander:hover{background-position:-131px -150px;}
@@ -402,6 +402,7 @@ div.int_txt{border-width:0 0 1px 0;text-indent: 40px;min-height:30px;height:auto
 .UserList li div.clearfix  p.font14{height:26px;margin-bottom:3px;}
 .UserList li .int.set_user{border-color:#ccc;}
 .bg-waring{background:#e9505f!important;}
+.bg-eda026{background:#eda026!important;}
 .color_0,.color_0 .card_title,.color_0 span.process_bar_in{background-color:#ffa700;}
 .list_doing .card_list li.color_0 p i{color:#ffa700;}
 .color_1,.color_1 .card_title,.color_1 span.process_bar_in{background-color:#5f8c63;}
