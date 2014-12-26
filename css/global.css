@@ -347,7 +347,9 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .pop_success .pop_top,.pop_success .btn{background:#4cb605;}
 .pop_waring .pop_top,.pop_waring .btn{background:#ffa100;}
 .pop_top p.p-top10{opacity:0.5;filter:Alpha(Opacity=50);}
-
+.pop_tip{width:300px;height:190px;margin:-95px 0 0 -150px;border:0;}
+.pop_tip .pop_top{height:90px;line-height: 90px;}
+.pop_tip .btn{background:#f3a818;border-radius:4px;}
 
 /*控件*/
 .Iframe{width:99.5%;float:right;}
@@ -357,6 +359,7 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .message{position:absolute;top:70px;width:196px;height:44px;line-height:18px;padding:16px 20px 0 20px;margin:10px 0;background: url("../img/mesbg.png") no-repeat;word-break: break-all;word-wrap: break-word;}
 .message_error{background: url("../img/mesbg_error.png") no-repeat; }
 .off{position: absolute;top:9px;right:8px;font-weight: bold;font-size:26px;color:#aaa;cursor: pointer;}
+.pop_tip .off{width:27px;height:25px;background-position: -199px -215px;top:0;}
 /*input*/
 .int{height:26px;line-height:normal;border:0;border-bottom:1px solid #ccc;border-radius:1px;text-indent:5px;color: #aaa;width: 100%;outline: 0;}
 .border{border:1px solid #ccc;}
@@ -437,7 +440,13 @@ div.int_txt{border-width:0 0 1px 0;text-indent: 40px;min-height:30px;height:auto
 .color_7{background: url("../img/bg7.jpg");background-size: cover;}
 .color_8{background: url("../img/bg8.jpg");background-size: cover;}
 .color_9{background: url("../img/bg9.jpg");background-size: cover;}
-
+pre {
+    white-space: pre-wrap; /* css-3 */
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
 @-webkit-keyframes fadeInLeft {
     0% {
         opacity: 0;
