@@ -49,10 +49,11 @@
       <file leaf-file-name="creat.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template/creat.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="403" column="72" selection-start="23725" selection-end="23725" vertical-scroll-proportion="-16.0" vertical-offset="1297" max-vertical-offset="5724">
+            <state line="505" column="55" selection-start="29377" selection-end="29377" vertical-scroll-proportion="-5.09375" vertical-offset="647" max-vertical-offset="1971">
               <folding>
                 <element signature="tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="tag#div#0;tag#div#1;tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#td#1;tag#tr#0;tag#table#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#div#1;tag#div#1;tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="n#style#0;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -62,12 +63,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="appstyle.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="appstyle.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/appstyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="334" column="86" selection-start="22644" selection-end="22644" vertical-scroll-proportion="0.0" vertical-offset="8667" max-vertical-offset="12312">
+            <state line="321" column="45" selection-start="21482" selection-end="21482" vertical-scroll-proportion="0.33260155" vertical-offset="8364" max-vertical-offset="12312">
               <folding>
-                <marker date="1419585106430" expanded="true" signature="8865:8887" placeholder="{...}" />
+                <marker date="1419588032573" expanded="true" signature="8865:8887" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -109,10 +110,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="global.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="global.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/global.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="285" column="130" selection-start="15622" selection-end="15622" vertical-scroll-proportion="0.26327193" vertical-offset="7452" max-vertical-offset="15822">
+            <state line="285" column="130" selection-start="15622" selection-end="15622" vertical-scroll-proportion="0.0" vertical-offset="7452" max-vertical-offset="15822">
               <folding />
             </state>
           </provider>
@@ -143,9 +144,9 @@
         <option value="$USER_HOME$/Desktop/wangkai/index.html" />
         <option value="$USER_HOME$/Desktop/wangkai/style/reset.css" />
         <option value="$USER_HOME$/Desktop/wangkai/style/main.css" />
+        <option value="$PROJECT_DIR$/css/global.css" />
         <option value="$PROJECT_DIR$/template/creat.html" />
         <option value="$PROJECT_DIR$/css/appstyle.css" />
-        <option value="$PROJECT_DIR$/css/global.css" />
       </list>
     </option>
   </component>
@@ -673,13 +674,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/wangkai/style/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="137" column="0" selection-start="5331" selection-end="5331" vertical-scroll-proportion="3.9519231" vertical-offset="0" max-vertical-offset="4050">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template/通讯录.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="556" column="36" selection-start="31768" selection-end="31768" vertical-scroll-proportion="-7.5" vertical-offset="2757" max-vertical-offset="4671">
@@ -689,18 +683,6 @@
             <element signature="tag#div#2;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#0;tag#div#3;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#1;tag#div#1;tag#div#3;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/creat_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="115" selection-start="4022" selection-end="4022" vertical-scroll-proportion="-7.59375" vertical-offset="648" max-vertical-offset="1674">
-          <folding>
-            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#2;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#3;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -737,33 +719,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/wangkai/index.html">
+    <entry file="file://$PROJECT_DIR$/css/global.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="57" selection-start="139" selection-end="139" vertical-scroll-proportion="-4.21875" vertical-offset="0" max-vertical-offset="1269">
+        <state line="285" column="130" selection-start="15622" selection-end="15622" vertical-scroll-proportion="0.0" vertical-offset="7452" max-vertical-offset="15822">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/wangkai/style/reset.css">
+    <entry file="file://$PROJECT_DIR$/template/creat_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="79" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/wangkai/style/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="936">
-          <folding />
+        <state line="90" column="115" selection-start="4022" selection-end="4022" vertical-scroll-proportion="-7.59375" vertical-offset="648" max-vertical-offset="1674">
+          <folding>
+            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#2;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#3;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/creat.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="403" column="72" selection-start="23725" selection-end="23725" vertical-scroll-proportion="-16.0" vertical-offset="1297" max-vertical-offset="5724">
+        <state line="505" column="55" selection-start="29377" selection-end="29377" vertical-scroll-proportion="-5.09375" vertical-offset="647" max-vertical-offset="1971">
           <folding>
             <element signature="tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#div#0;tag#div#1;tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#td#1;tag#tr#0;tag#table#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#1;tag#div#1;tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -774,17 +755,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/appstyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="334" column="86" selection-start="22644" selection-end="22644" vertical-scroll-proportion="0.0" vertical-offset="8667" max-vertical-offset="12312">
+        <state line="321" column="45" selection-start="21482" selection-end="21482" vertical-scroll-proportion="0.33260155" vertical-offset="8364" max-vertical-offset="12312">
           <folding>
-            <marker date="1419585106430" expanded="true" signature="8865:8887" placeholder="{...}" />
+            <marker date="1419588032573" expanded="true" signature="8865:8887" placeholder="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="285" column="130" selection-start="15622" selection-end="15622" vertical-scroll-proportion="0.26327193" vertical-offset="7452" max-vertical-offset="15822">
-          <folding />
         </state>
       </provider>
     </entry>

@@ -319,7 +319,7 @@
 .module .has-general input.int,.module .has-general textarea.int{width:100%;}
 .module .ico-p-minus,.module .ico-p-add{margin-left:5px;position: relative;top:6px;}
 .module .control-label.unit{display:inline-block;width:20%;left:inherit;right:0;padding:0 3px;background:#fff;}
-.module_li li{display: inline-block;width:138px;height:26px;line-height:26px;text-align:center;border:1px dashed #b6b6b6;border-radius:3px;margin:10px 5px 0 5px;cursor: pointer;}
+.module_li li{display: inline-block;width:120px;height:26px;line-height:26px;text-align:center;border:1px dashed #b6b6b6;border-radius:3px;margin:10px 5px 0 5px;cursor: pointer;}
 .module_li li:hover,.module_li li.current{border:1px solid #347cdc;background:#f2f8fe;}
 .module_li li:active{cursor: move;}
 .module_li.link_li li:active{cursor: pointer;}
