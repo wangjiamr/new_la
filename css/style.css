@@ -33,6 +33,9 @@
 .ico-prev:hover{background-position:-40px -755px;}
 .ico-next.disabled{background-position:-80px -712px;cursor: default;}
 .ico-prev.disabled{background-position:-40px -712px;cursor: default;}
+.ico-left,.ico-right{width:30px;height:30px;background-position:0 0;position: absolute;top:0;}
+.ico-left{left:67px;}
+.ico-right{background-position:-31px 0;right:67px;}
 /*色球*/
 .color_mark em{font-size:14px;}
 .color_mark .Icon{width:14px;height:14px;border-radius:50%;behavior: url(../css/PIE.htc);background:none;vertical-align: -2px;margin-right:5px;}
@@ -79,6 +82,7 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .bottom_nav .ico-b4{background-position:-155px -570px;}
 .bottom_nav .ico-b5{background-position:-155px -610px;}
 .bottom_nav .ico-b6{background-position:-155px -650px;}
+.bottom_nav .ico-b7{background-position:-115px -610px;}
 .bottom_nav a span{position:absolute;z-index:20;top:-35px;left:50%;margin-left:-35px;color:#000;width:70px;height:31px;line-height:24px;background:url("../img/a_span.png");display: inline-block;text-align: center;display: none;opacity: 0;}
 .new_main{width:1000px;margin:0 auto;min-height:200px;margin-top:80px;color:#fff;}
 .top_board{width:800px;margin:0 auto;height:100px;background:url("../img/mask4.png") repeat;border-radius:3px;opacity:0.9;}
@@ -100,7 +104,7 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .card_in_main{margin:30px 0 10px 10px;color:#888;opacity: 0;transition:5s;}
 .card_in_main p{line-height:20px;position:relative;top:-3px;}
 .card_in_main p.txt_hidden{width:240px;}
-.card_list li .UserImg,.card_list li .UserImg img,.Approval .UserImg,.Approval .UserImg img{width:30px;height:30px;}
+.card_list li .UserImg,.card_list li .UserImg img,.Approval .UserImg,.Approval .UserImg img,.turn_box .UserImg,.turn_box .UserImg img{width:30px;height:30px;}
 .card_list li .UserImg,.card_list li .UserImg img{width:50px;height:50px;}
 .card_list li .UserImg{margin-top:10px;border:2px solid #fff;}
 .card_title{height:90px;line-height:26px;padding:0 10px;color:#fff;font-size:14px;transition:0.5s;background-image:url("../img/li_mask.png");background-position:0 0;background-repeat: no-repeat;position: relative;top:-120px;}
@@ -155,9 +159,13 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .list_table tbody td{border-bottom:1px solid #c7c7c7;background:#fff;color:#444;}
 .list_table tbody tr:last-child td{border-bottom:0;}
 .list_table tbody tr:hover td,.list_table tbody tr.current td{background:#f2f2f2;}
-.list_table tbody div.inner_td{height:40px;line-height:40px;padding-left:20px;position: relative;overflow: hidden;}
+.list_table tbody div.inner_td{height:40px;line-height:40px;padding-left:20px;position: relative;}
+.list_table_tj,.list_table_tj tbody div.inner_td{overflow: hidden;}
 .list_table tbody div.inner_td .UserImg,.Approval .UserImg{vertical-align:-10px;margin-right:5px;}
-.Approval .UserImg{background:url("../img/ico.png") -195px -60px;cursor: pointer;}
+.list_table_tj tbody div.inner_td span.block{height:20px;line-height:20px;margin-top:10px;border-right: 1px solid #aaa;}
+.Approval .UserImg,.turn_box .UserImg{background:url("../img/ico.png") -195px -60px;cursor: pointer;}
+.turn_box .relative,.Approval .relative{margin:5px;}
+.Approval .relative{margin:5px 2px;}
 .Approval table.Approval_turn{width:100%;margin:10px 0;height:auto;}
 .Approval table.Approval_turn tr.first th,.Approval table.Approval_turn tr.first td{border-bottom:1px dashed #bbb;line-height:50px;}
 .Approval table.Approval_turn textarea{width:398px;height:88px;border:1px solid #ccc;border-radius:2px;padding:5px;}
@@ -170,6 +178,7 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .prompt_main{width:198px;border-left:1px solid #aaa;border-right:1px solid #aaa;min-height:50px;padding-bottom:5px;background:#fff;}
 .prompt_title{border-bottom:1px solid #ccc;padding:5px 10px;line-height:29px;}
 .prompt_main p{line-height:20px;display: block;}
+.prompt_title .UserImg{vertical-align:-10px;}
 .user_li{width:100%;}
 .user_li li{height:50px;border-bottom:1px solid #eee;border-left:2px solid #fff;padding:0 8px;}
 .user_li li p{position: relative;bottom:-7px;}
@@ -186,7 +195,8 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .app_p{border-top:1px solid #ddd;height:29px;line-height:29px;padding:0 0 0 10px;}
 .app_p .Btn{height:29px;line-height:29px;border-radius:0;}
 .MakeBtn{position: absolute;top:0;right:0;background:#b6b6b6;bottom:0;width:0;overflow: hidden;}
-.MakeBtn a{display: inline-block;width:40px;height:40px;text-align: center;line-height:40px;}
+.MakeBtn a{display: inline-block;width:40px;height:40px;text-align: center;line-height:40px;float: left;}
+.list_table_tj .MakeBtn{width:80px;right:-80px;}
 .delete{background:#e65c5c;}
 .ico-delete,.ico-turn{width:16px;height:16px;background-position: -177px -268px;vertical-align: middle;}/*垃圾箱*/
 .ico-turn{background-position:-177px -284px;}
@@ -236,6 +246,7 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .User_list ul.User_ul li{border-bottom: 1px solid #162826;padding:15px 10px;}
 .User_list ul.User_ul li:hover{background:#112220;cursor: pointer;}
 .User_list ul.User_ul li p{color:#888;line-height:22px;}
+.User_list ul.User_ul li p.txt_hidden{width:120px;}
 .User_list ul.User_ul li .UserName{color:#fff;}
 .User_list ul.User_ul li .UserImg,.User_list ul.User_ul li .UserImg img{width:36px;height:36px;}
 .nav_normal{border-bottom:1px solid #122827;position: relative;}
@@ -296,6 +307,18 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 .back_md li{display: block;}
 .back_md li a{display: block;height:50px;line-height:50px;color:#fff;}
 .back_md li a:hover{background: url("../img/mask70.png") repeat;}
+/*统计*/
+.high_table{width:800px;margin:0 auto;overflow: hidden;}
+.table_left,.table_right{width:30%;min-height:300px;overflow: hidden;}
+.table_right{width:70%;}
+.table_head{width:100%;height:30px;position:relative;margin:0 auto;overflow: hidden;}
+.table_head .list_table,.table_main .list_table{width:auto;min-width:100%;position: absolute;left:0;top:0;transition:0.5s;}
+.table_main{min-width:100%;position: relative;overflow: hidden;}
+.table_main .list_table{min-width:100%;width: auto;}
+.table_left .table_main .txt_hidden{width:120px;}
+.table_right .table_head{min-width:100%;width:auto;}
+.high_table .list_table tr:hover td{background:#fff;}
+.high_table .list_table tr.current td,.high_table .list_table tr.current:hover td{background:#f2f2f2;}
 
 /*适配1024屏幕*/
 .mini .top_nav a{margin:0 2px;padding:0 5px;}

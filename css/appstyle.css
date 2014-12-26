@@ -324,14 +324,16 @@
 .module_li li:active{cursor: move;}
 .module_li.link_li li:active{cursor: pointer;}
 .cursor_none{cursor:url('../img/aero_unavail.cur'),auto!important;}
-.Icon-box{width:34px;height:34px;display:inline-block;background: url("../img/ico-box-bg.jpg"); text-align: center;cursor: pointer;position: relative;}
-.Icon-box img{width:24px;height:24px;position: relative;top:4.5px;}
-.Icon-box .ico_list{width:100px;position: absolute;background:#f2f2f2;border-top:1px solid #aaa;border-left:1px solid #aaa;top:30px;left:30px;text-align: left;display: none;z-index: 100;}
-.Icon-box .ico_list li{width:24px;height:24px;display:inline-block;border-right:1px solid #aaa;border-bottom:1px solid #aaa;padding:4px;float:left;}
-.Icon-box .ico_list li img{top:1px;}
+.Icon-box{width:34px;height:34px;display:inline-block;font-size:32px; text-align: center;cursor: pointer;position: relative;}
+
+.Icon-box img{width:24px;height:24px;vertical-align: top;}
+.Icon-box .ico_list{width:100px;position: absolute;background:#f2f2f2;border-top:1px solid #aaa;border-left:1px solid #aaa;top:30px;left:30px;text-align: left;display:none;z-index: 100;}
+.Icon-box .ico_list li{width:24px;height:24px;font-size:24px;display:inline-block;border-right:1px solid #aaa;border-bottom:1px solid #aaa;padding:4px;float:left;}
+.Icon-box .ico_list li span{position:relative;top:-5px;}
 .Icon-box.current .ico_list{display:block;}
 .Icon-box.color .ico_list{width:135px;border:0;background:none;}
-.Icon-box.color{width:22px;height:22px;border:1px solid #000;background:none;}
+.Icon-box.color{width:24px;height:24px;border:1px solid #000;background:none;bottom:-5px;}
+.Icon-box.color span{display:inline-block;width:24px;height:24px;}
 .Icon-box.color .ico_list{top:20px;left:20px;background:#fff;}
 .Icon-box.color li{padding:0;border:1px solid transparent;}
 .Icon-box.color em{display:inline-block;font-size:0;line-height:0;width:24px;height:24px;}
