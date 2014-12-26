@@ -86,6 +86,28 @@ $(function(){
         var $this = $(this);
         $this.find('.R-btns').stop().animate({right:-40},200);
     });
+//   统计表
+    var $wait_left = $('.wait_left'),
+        $wait_top = $('.wait_top'),
+        $ico_left = $('.ico-left'),
+        $ico_right = $('.ico-right'),
+        $table_main = $('.table_main'),
+        $waitW = $wait_left.width(),
+        $waitH = $wait_top.height(),
+        $table_right = $('.table_right'),
+        $table_right_w = $table_right.width();
+    $ico_left.click(function(){
+        var $wait_left_l = parseInt($wait_left.css('left'));
+        if($wait_left_l > ($table_right_w-$waitW)){
+            $wait_left.stop().animate({left:($wait_left_l-140)},200);
+        }
+    });
+    $ico_right.click(function(){
+        var $wait_left_l = parseInt($wait_left.css('left'));
+        if($wait_left_l >= ($table_right_w-$waitW) && $wait_left_l<0){
+            $wait_left.stop().animate({left:($wait_left_l+140)},200);
+        }
+    });
   });
 
 
