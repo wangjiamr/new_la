@@ -334,13 +334,13 @@
 .Icon-box.color .ico_list{width:135px;border:0;background:none;}
 .Icon-box.color{width:24px;height:24px;border:1px solid #000;background:none;bottom:-5px;}
 .Icon-box.color span{display:inline-block;width:24px;height:24px;}
-.Icon-box.color .ico_list{top:20px;left:20px;background:#fff;}
+.Icon-box.color .ico_list{top:23px;left:0;background:#fff;}
 .Icon-box.color li{padding:0;border:1px solid transparent;}
 .Icon-box.color em{display:inline-block;font-size:0;line-height:0;width:24px;height:24px;}
 .Icon-box.color li:hover{border-color:#000;}
-.Icon-box .form_ico_show{width:34px;height:34px;left:0;position: relative;display: block;top:10px;}
+.Icon-box .form_ico_show{width:30px;height:30px;left:0;position: relative;display: block;top:10px;z-index:10;}
 .Icon-box .form_ico_show li{padding:0;}
-.Icon-box .form_ico_show li img{width:34px;height:34px;}
+.Icon-box .form_ico_show li img{width:30px;height:30px;}
 .Icon-box .form_ico_show li span{position: absolute;top:50%;left:50%;margin:-12px 0 0 -12px;font-size:24px;color: #fff;}
 .module{padding-left:15px;}
 .module .bg{width:40px;height:40px;}

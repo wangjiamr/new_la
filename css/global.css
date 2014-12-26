@@ -437,7 +437,13 @@ div.int_txt{border-width:0 0 1px 0;text-indent: 40px;min-height:30px;height:auto
 .color_7{background: url("../img/bg7.jpg");background-size: cover;}
 .color_8{background: url("../img/bg8.jpg");background-size: cover;}
 .color_9{background: url("../img/bg9.jpg");background-size: cover;}
-
+pre {
+    white-space: pre-wrap; /* css-3 */
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
 @-webkit-keyframes fadeInLeft {
     0% {
         opacity: 0;
