@@ -346,11 +346,11 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 }
 @font-face {
 	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?wdugp4');
-	src:url('fonts/icomoon.eot?#iefixwdugp4') format('embedded-opentype'),
-		url('fonts/icomoon.woff?wdugp4') format('woff'),
-		url('fonts/icomoon.ttf?wdugp4') format('truetype'),
-		url('fonts/icomoon.svg?wdugp4#icomoon') format('svg');
+	src:url('icomoon.eot?wdugp4');
+	src:url('icomoon.eot?#iefixwdugp4') format('embedded-opentype'),
+		url('icomoon.woff?wdugp4') format('woff'),
+		url('icomoon.ttf?wdugp4') format('truetype'),
+		url('icomoon.svg?wdugp4#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
