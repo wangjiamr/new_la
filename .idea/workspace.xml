@@ -26,7 +26,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="378" column="21" selection-start="24008" selection-end="24008" vertical-scroll-proportion="1.1570156" vertical-offset="9167" max-vertical-offset="11718">
+            <state line="353" column="21" selection-start="23505" selection-end="23505" vertical-scroll-proportion="0.4053452" vertical-offset="9167" max-vertical-offset="11718">
               <folding />
             </state>
           </provider>
@@ -374,13 +374,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="358" column="80" selection-start="20543" selection-end="20543" vertical-scroll-proportion="0.0" vertical-offset="9222" max-vertical-offset="16065">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template/n_list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
@@ -787,9 +780,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/icomoon.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="378" column="21" selection-start="24008" selection-end="24008" vertical-scroll-proportion="1.1570156" vertical-offset="9167" max-vertical-offset="11718">
+        <state line="353" column="21" selection-start="23505" selection-end="23505" vertical-scroll-proportion="0.4053452" vertical-offset="9167" max-vertical-offset="11718">
           <folding />
         </state>
       </provider>
