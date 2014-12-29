@@ -35,6 +35,7 @@
 .nav a{display: inline-block;height:29px;line-height:29px;width:33%;color:#888;border:1px solid #ddd;border-top:0;margin-left:-1px;text-align: center;float: left;}
 .nav a.current,.nav a:hover{color:#fff;background:#347cdc;border-color:#347cdc;}
 .nav .borderBt{width:49px;font-size:0;line-height:0;border-bottom:2px solid #59a7f9;position: absolute;bottom:-1px;left:0;}
+.nav_50 a{width:49.6%;}
 .search{width:200px;height:26px;border-width:1px;border-style:solid;border-radius:3px;position: relative;z-index: 20;text-align: left;background-color:#fff;}
 .search input,.search .Choosed{width:76%;height:26px;line-height:normal;border:0;border-radius:5px;padding-left:10px;background: none;color: #666;outline: none;}
 .search .Choosed{width:93%;line-height:26px;}
