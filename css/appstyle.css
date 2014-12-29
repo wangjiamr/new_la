@@ -121,8 +121,9 @@
 .Approval table th{width:100px;padding-right:10px;text-align: right;}
 .Approval table th,.Approval table td{vertical-align: top;}
 .Approval_inner{width:650px;min-height:150px;border:1px solid #2b97df;border-radius:3px;}
-.Approval_inner textarea{width:98%;height:99px;padding:5px;display:block;border:0;border-bottom:1px solid #ddd;margin:0 auto;color:#888;}
+.Approval_inner textarea{width:98%;height:99px;padding:5px;display:block;border:0;margin:0 auto;color:#888;}
 .Approval table td div.mart10 a i{vertical-align:-2px;}
+.acc_list{padding-left:10px;border-top:1px solid #aaa;}
 .acc_list li{float: left;width:120px;height:80px;margin:10px 20px 0 0;background-color:#fff;position: relative;overflow: hidden;}
 .acc_list li div.block{width:118px;height:78px;overflow:hidden; text-align: center;border:1px solid #666;position: relative;}
 .acc_list li div.block p{width:120px;height:80px;line-height:50px;}
