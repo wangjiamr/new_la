@@ -35,6 +35,7 @@
 .nav a{display: inline-block;height:29px;line-height:29px;width:33%;color:#888;border:1px solid #ddd;border-top:0;margin-left:-1px;text-align: center;float: left;}
 .nav a.current,.nav a:hover{color:#fff;background:#347cdc;border-color:#347cdc;}
 .nav .borderBt{width:49px;font-size:0;line-height:0;border-bottom:2px solid #59a7f9;position: absolute;bottom:-1px;left:0;}
+.nav_50 a{width:49.6%;}
 .search{width:200px;height:26px;border-width:1px;border-style:solid;border-radius:3px;position: relative;z-index: 20;text-align: left;background-color:#fff;}
 .search input,.search .Choosed{width:76%;height:26px;line-height:normal;border:0;border-radius:5px;padding-left:10px;background: none;color: #666;outline: none;}
 .search .Choosed{width:93%;line-height:26px;}
@@ -115,14 +116,14 @@
 .form-mini-in table{margin:0 5px;}
 .form-mini-in table th{line-height:25px;color:#333;padding-left:4px;}
 .form-mini-in table td{color:#8396b2;padding-right:4px;}
-.Approval{padding-bottom:10px;border-bottom:1px solid #0d2f6b;background:#fff;position: absolute;left:0;right:0;z-index:20;}
+.Approval{padding-bottom:10px;border-bottom:1px solid #0d2f6b;background:#fff;position: absolute;left:0;right:0;z-index:21;}
 .Approval table{height:210px;margin:10px 0 0 20px;}
 .Approval table th{width:100px;padding-right:10px;text-align: right;}
 .Approval table th,.Approval table td{vertical-align: top;}
 .Approval_inner{width:650px;min-height:150px;border:1px solid #2b97df;border-radius:3px;}
 .Approval_inner textarea{width:98%;height:99px;padding:5px;display:block;border:0;border-bottom:1px solid #ddd;margin:0 auto;color:#888;}
 .Approval table td div.mart10 a i{vertical-align:-2px;}
-.acc_list li{float: left;width:120px;height:80px;margin:10px 20px 0 0;background-color:#fff;position: relative;overflow: hidden;background: url("../img/fu_img.gif") no-repeat center center;}
+.acc_list li{float: left;width:120px;height:80px;margin:10px 20px 0 0;background-color:#fff;position: relative;overflow: hidden;}
 .acc_list li div.block{width:118px;height:78px;overflow:hidden; text-align: center;border:1px solid #666;position: relative;}
 .acc_list li div.block p{width:120px;height:80px;line-height:50px;}
 .acc_list li div.block p:before{
@@ -255,10 +256,12 @@
 .form_left{width:680px;padding:0 10px;;background:url("../img/mask50.png") repeat;min-height:100%;position: relative;}
 .form_right{width:300px;height:100%;min-height: auto;background:#fff;overflowhidden;}
 .form_right .jspHorizontalBar{display: none;}
-.form_inner{position:absolute;top:10px;left:0;right:10px;bottom:10px;padding:0;padding-right:20px;}
-.form_main{position:relative;border:1px solid #ccc;background:#fff;height:100%;padding-left:20px;margin-left:10px;}
+.form_inner{position:absolute;top:10px;left:10px;right:10px;bottom:10px;padding:0;overflow: hidden;}
+.form_main{position:relative;background:#fff;height:100%;padding-left:20px;margin-right:-12px;padding-bottom:50px;overflow-y:auto;}
 .form_tab{width:100%;position: relative;}
 .form_right .TopBar .nav{padding-bottom:5px;}
+.module_out{overflow-y: auto;height:96%;margin-right:-12px;}
+.module_box{padding-bottom:50px;}
 .module{padding-bottom:5px;}
 .form_tab th{height:46px;border:1px dashed #ccc;border-bottom:0;}
 .form_tab td{height:46px;border:1px dashed #ccc;border-bottom:0;width:50%;}
@@ -356,7 +359,7 @@
 .module_list li{height:28px;line-height:28px;padding-left:15px;border:1px solid #cbcbcb;border-left-width:5px;margin:10px 0;cursor: pointer;}
 .module_list li:hover,.module_list li.current{border-color:#2b97df;}
 .jscroll{outline:0;}
-.module_box{padding-bottom:50px;height:100%;}
+
 .Control li{display: inline-block;width:45%;color:#666;line-height:24px;padding-left:10px;}
 .Control li.current{background:#edf5fe;color:#333;}
 .control_box{border-bottom:1px solid #ccc;padding-bottom:15px;}
