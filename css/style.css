@@ -70,6 +70,7 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .new_search .font14{line-height:30px;color:#d0d0d0;}
 .new_search a{color:#78fdff;padding:10px 0}
 .new_search .ico-arrow{width:14px;height:7px;margin-left:5px;background-position:-193px -189px;}
+.new_search .ico-arrow.current{background-position:-209px -188px;}
 .new_search .ser_Results{left:70px;border:1px solid #fff;box-shadow:0 0 5px #333;}
 .second_header{width:100%;height:40px;background:url("../img/mask3.png") repeat;position: fixed;left: 0;top:-40px;}
 .second_header a{display: inline-block;line-height:40px;height:40px;padding:0 20px;margin:0 5px;color:#fff;}
