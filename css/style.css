@@ -375,22 +375,22 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 .icon-search:before {
 	content: "\e607";
 }
-.icon-airplane:before {
+.icon-0:before {
 	content: "\e600";
 }
-.icon-briefcase:before {
+.icon-1:before {
 	content: "\e601";
 }
-.icon-calendar2:before {
+.icon-2:before {
 	content: "\e602";
 }
-.icon-coin:before {
+.icon-3:before {
 	content: "\e603";
 }
-.icon-paste2:before {
+.icon-4:before {
 	content: "\e604";
 }
-.icon-users:before {
+.icon-5:before {
 	content: "\e605";
 }
 
