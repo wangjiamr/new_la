@@ -108,6 +108,14 @@ $(function(){
             $wait_left.stop().animate({left:($wait_left_l+140)},200);
         }
     });
+//    选择申请表单
+    var $this_form = $('#this_form'),
+        $new_main = $this_form.parents('.new_main'),
+        $form_edit_box = $('.form_edit_box');
+    $this_form.click(function(){
+        $new_main.fadeOut();
+        $form_edit_box.show();
+    });
   });
 
 
