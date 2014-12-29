@@ -23,19 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="378" column="21" selection-start="24008" selection-end="24008" vertical-scroll-proportion="-15.64" vertical-offset="9815" max-vertical-offset="11718">
+            <state line="378" column="21" selection-start="24008" selection-end="24008" vertical-scroll-proportion="1.1570156" vertical-offset="9167" max-vertical-offset="11718">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="apply.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="apply.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template/apply.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="170" column="52" selection-start="9409" selection-end="9409" vertical-scroll-proportion="0.23893805" vertical-offset="3564" max-vertical-offset="6291">
+            <state line="170" column="52" selection-start="9409" selection-end="9409" vertical-scroll-proportion="-6.75" vertical-offset="3564" max-vertical-offset="6291">
               <folding>
                 <element signature="tag#div#2;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#div#0;tag#div#0;tag#div#0;tag#div#3;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
@@ -335,7 +335,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -752,23 +752,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/icomoon/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="748" selection-end="975" vertical-scroll-proportion="0.0" vertical-offset="549" max-vertical-offset="1485">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="378" column="21" selection-start="24008" selection-end="24008" vertical-scroll-proportion="-15.64" vertical-offset="9815" max-vertical-offset="11718">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template/apply.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="170" column="52" selection-start="9409" selection-end="9409" vertical-scroll-proportion="0.23893805" vertical-offset="3564" max-vertical-offset="6291">
+        <state line="170" column="52" selection-start="9409" selection-end="9409" vertical-scroll-proportion="-6.75" vertical-offset="3564" max-vertical-offset="6291">
           <folding>
             <element signature="tag#div#2;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#0;tag#div#0;tag#div#0;tag#div#3;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
@@ -791,6 +777,20 @@
             <element signature="n#style#0;n#span#0;n#div#0;n#li#1;n#ul#0;n#div#1;n#td#0;n#tr#0;n#table#6;n#div#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#th#0;n#tr#0;n#table#7;n#div#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/icomoon/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="748" selection-end="975" vertical-scroll-proportion="0.0" vertical-offset="549" max-vertical-offset="1485">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="378" column="21" selection-start="24008" selection-end="24008" vertical-scroll-proportion="1.1570156" vertical-offset="9167" max-vertical-offset="11718">
+          <folding />
         </state>
       </provider>
     </entry>
