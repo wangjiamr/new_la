@@ -43,6 +43,7 @@
 .search.current{border-color:#347cdc;}
 .ser_Results{width:100%;position: absolute;background: #fff;border-style: solid;border-width:1px;border-radius:5px;}
 .search .ser_Results{left:-1px;top:26px;z-index:200;display:none;padding:5px 0;}
+.search .ser_Results.groupList{top:inherit;bottom:26px;padding:0;}
 .ser_Results li{line-height: 26px;padding-left:10px;color:#888;cursor: pointer;display: block;}
 .ser_Results li:hover,.ser_Results li.current,.ser_Results li:hover em{color:#333;}
 .ser_Results li.current em{color:red;}
@@ -329,11 +330,11 @@
 .module_li li:active{cursor: move;}
 .module_li.link_li li:active{cursor: pointer;}
 .cursor_none{cursor:url('../img/aero_unavail.cur'),auto!important;}
-.Icon-box{width:30px;height:30px;display:inline-block;font-size:32px; text-align: center;cursor: pointer;position: relative;}
+.Icon-box{width:30px;height:30px;display:inline-block;font-size:28px; text-align: center;cursor: pointer;position: relative;}
 .Icon-box img{width:30px;height:30px;vertical-align: top;}
-.Icon-box .ico_list{width:100px;position: absolute;background:#f2f2f2;border-top:1px solid #aaa;border-left:1px solid #aaa;top:30px;left:30px;text-align: left;display:none;z-index: 100;}
-.Icon-box .ico_list li{width:28px;height:28px;font-size:24px;display:inline-block;border:1px solid #aaa;;padding:4px;float:left;}
-.Icon-box .ico_list li span{position:relative;top:-5px;}
+.Icon-box .ico_list{width:111px;position: absolute;background:#f2f2f2;border-top:1px solid #aaa;border-left:1px solid #aaa;top:30px;left:30px;text-align: left;display:none;z-index: 100;}
+.Icon-box .ico_list li{width:28px;height:28px;font-size:24px;display:inline-block;border:1px solid #aaa;padding:4px;float:left;border-width:0 1px 1px 0}
+.Icon-box .ico_list li span{position:relative;top:-3px;}
 .Icon-box.current .ico_list{display:block;}
 .Icon-box.color .ico_list{width:150px;border:0;background:none;}
 .Icon-box.color .ico_list img{width:28px;height:28px;}
@@ -346,7 +347,7 @@
 .Icon-box .form_ico_show{width:30px;height:30px;left:0;position: relative;display: block;top:0;z-index:10;}
 .Icon-box .form_ico_show li{padding:0;}
 .Icon-box .form_ico_show li img{width:30px;height:30px;}
-.Icon-box .form_ico_show li span{position: absolute;top:50%;left:50%;margin:-12px 0 0 -12px;font-size:24px;color: #fff;}
+.Icon-box .form_ico_show li span{position: absolute;top:50%;left:50%;margin:-11px 0 0 -11px;font-size:22px;color: #fff;}
 .module{padding-left:15px;}
 .module .bg{width:40px;height:40px;}
 .normal_set th{height:50px;}
