@@ -32,16 +32,16 @@ $(function(){
     var $bottom_nav_s = $('.bottom_nav a span');
     $bottom_nav_a.hover(function(){
         var $this = $(this);
-        $this.stop().animate({bottom:-3},200);
+//        $this.stop().animate({bottom:-3},200);
         $this.find($bottom_nav_s).stop().show().animate({
             opacity:1,
-            top:-45
+            top:-40
         },350);
     },function(){
         var $this = $(this);
-        $this.stop().animate({bottom:0},200);
+//        $this.stop().animate({bottom:0},200);
         $this.find($bottom_nav_s).stop().animate({
-            top:-35,
+            top:-30,
             opacity:0
         },300);
     });

@@ -193,7 +193,7 @@
 .ProcessLi{width:9999px;}
 .Item span{height:32px;line-height:32px;}
 .Item .inlineblock span{display:inline-block;line-height: normal;}
-.Item .inlineblock span.UserImg{top:5px;position: relative;}
+.Item .inlineblock span.UserImg{top:5px;position: relative;vertical-align:6px;}
 .ProcessLi li{display: inline-block;float: left;height:32px;line-height:32px;}
 
 .cond span .Icon{top:-1px;}
@@ -260,7 +260,7 @@
 .form_right{width:300px;height:100%;min-height: auto;background:#fff;overflow:hidden;}
 .form_right .jspHorizontalBar{display: none;}
 .form_inner{position:absolute;top:10px;left:10px;right:10px;bottom:10px;padding:0;overflow: hidden;}
-.form_main{position:relative;background:#fff;height:100%;padding-left:20px;margin-right:-10px;overflow-y:auto;}
+.form_main{position:relative;background:#fff;height:100%;padding-left:20px;margin-right:-5px;overflow-y:auto;}
 .form_tab{width:100%;position: relative;}
 .form_right .TopBar .nav{padding-bottom:5px;}
 .module_out{overflow-y: auto;height:96%;margin-right:-10px;}
