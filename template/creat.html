@@ -5,6 +5,7 @@
     <title>LA home</title>
     <link rel="stylesheet" type="text/css" href="../css/global.css">
     <link rel="stylesheet" type="text/css" href="../css/appstyle.css">
+    <link rel="stylesheet" type="text/css" href="../css/jscrollpane.css">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body class="nobg">
@@ -329,7 +330,7 @@
                             </td>
                         </tr>
                     </table>
-                    <p class="mart20 p-bt20 aligncenter"><a href="#" class="add">+ 添加一行</a></p>
+                    <p class="p-top40 aligncenter"></p>
                 </div>
             </div>
         </div>
@@ -345,7 +346,7 @@
             <div class="module_out">
                 <!--主要设置over-->
                 <!--基本设置begin-->
-                <div class="module_box p-top10" style="display:;">
+                <div class="module_box p-top10" style="display:none;">
                     <!--<p class="color-8 p-top20">请先选择组件再进行编辑</p>-->
                     <div class="module mart20">
                         <p class="font14">必填项</p>
@@ -355,14 +356,14 @@
                                     <th class="width-40">图标</th>
                                     <td>
                                         <div class="Icon-box">
-                                            <span class="icon-paste2"></span>
+                                            <span class="icon-0"></span>
                                             <ul class="ico_list clearfix">
-                                                <li><span class="icon-paste2"></span></li>
-                                                <li><span class="icon-users"></span></li>
-                                                <li><span class="icon-coin"></span></li>
-                                                <li><span class="icon-calendar2"></span></li>
-                                                <li><span class="icon-briefcase"></span></li>
-                                                <li><span class="icon-airplane"></span></li>
+                                                <li><span class="icon-0"></span></li>
+                                                <li><span class="icon-1"></span></li>
+                                                <li><span class="icon-2"></span></li>
+                                                <li><span class="icon-3"></span></li>
+                                                <li><span class="icon-4"></span></li>
+                                                <li><span class="icon-5"></span></li>
                                             </ul>
                                         </div>
                                     </td>
@@ -390,7 +391,7 @@
                                             <ul class="ico_list form_ico_show clearfix">
                                                 <li>
                                                     <img src="../img/bg0.jpg">
-                                                    <span class="icon-paste2"></span>
+                                                    <span class="icon-0"></span>
                                                 </li>
                                             </ul>
                                         </div>
@@ -558,7 +559,7 @@
                 </div>
                 <!--添加组件over-->
                 <!--编辑组件begin-->
-                <div class="module_box" style="display:none;">
+                <div class="module_box" style="display:;">
                     <div class="module mart20">
                         <p class="font14">标题</p>
                         <p class="mart15 marl10"><input class="int" type="text"></p>
@@ -634,7 +635,7 @@
                     </div>
                     <div class="module mart20">
                         <p class="font14">验证格式</p>
-                        <div id="select" class="search ie-css3 select mart10 width-200" ><!--加 current，显示下拉列表框-->
+                        <div id="select" class="search ie-css3 select mart10 width-200 current"><!--加 current，显示下拉列表框-->
                             <span class="Choosed">选择群组</span>
                             <span class="ico-select"><i class="Icon ico-upd"></i></span>
                             <div class="ser_Results ie-css3 groupList">
@@ -663,6 +664,19 @@
 <!--主要内容over-->
 <script type="text/javascript" src="../js/jquery.js"></script>
 <script type="text/javascript" src="../js/imgauto.js"></script>
+<script type="text/javascript" src="../js/jquery.jscrollpane.min.js"></script>
+<script type="text/javascript" src="../js/jquery.mousewheel.js"></script>
 <script type="text/javascript" src="../js/Mutual.js"></script>
+<script type="text/javascript">
+    $(function() {
+        function Jscroll(){
+            $('.jscroll').jScrollPane({
+                'mouseWheelSpeed':100,
+                "showArrows":false
+            });
+        }
+        Jscroll();
+    });
+</script>
 </body>
 </html>
